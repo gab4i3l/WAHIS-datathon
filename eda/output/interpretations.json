@@ -1,0 +1,100 @@
+{
+  "findings": [
+    "The largest country-disease contribution in the peak year is Iran: Paenibacillus larvae (American foulbrood), 459,127 (66.7% of 2011 known counts). This source entry needs verification before an epidemiological explanation.",
+    "The highest annual known count is 2011 (688,141); this is a reported-count peak, not an incidence estimate.",
+    "Paenibacillus larvae (American foulbrood) leads the disease ranking (523,909); the top ten labels contribute 54.0% of known counts.",
+    "Middle East contributes the largest regional share (25.0%); regions are disjoint after verified duplicate removal.",
+    "Iran has the highest known country count (875,688); the top five countries contribute 41.0%.",
+    "Countries with numeric summary counts vary from 136 to 168 annually; coverage limits trend interpretation.",
+    "Category fallback adds 784,440 known counts beyond Both-only summaries (3,923,628); this sensitivity materially affects scope.",
+    "The trailing same-half log-MAD screen flags 467 of 6425 eligible disease-region-semesters; these are candidates for review, not validated significant changes.",
+    "Bluetongue has 92.7% of known counts in Jul\u2013Dec; this is pooled half-year reporting asymmetry, not confirmed monthly onset seasonality.",
+    "ASF known totals increase from 1,353 in 2005\u201309 to 57,768 in 2020\u201324 (+4,169.6%). Only 1 country has numeric summaries in every comparison year: changing participation prevents a broad fixed-country trend claim."
+  ],
+  "charts": {
+    "01_annual_trend_coverage": [
+      "How do reported counts and coverage change annually?",
+      "Sum known selected New outbreaks by Year; percentage change uses consecutive observed years without filling missing counts.",
+      "2011 peaks at 688,141; Iran / Paenibacillus larvae (American foulbrood) contributes 66.7% of that total.",
+      "Use the peak and coverage changes to choose periods for disease-specific review.",
+      "Unknown groups contribute no numeric count; counts may be partial. Country numbers do not measure complete reporting or livestock exposure."
+    ],
+    "02_semester_trend": [
+      "When do six-month reported counts peak?",
+      "Sum by explicit reporting semester; add a trailing mean of four observed semesters.",
+      "2024 contains 2 semester labels; country coverage is half 1: 129, half 2: 126.",
+      "Half-year variation can guide finer data requests.",
+      "These are reporting-period counts; precise onset/report dates and monthly seasonality are unavailable. A trailing mean is descriptive."
+    ],
+    "03_top_disease_trends": [
+      "Are high-count diseases stable or dominated by spikes?",
+      "Use unmerged top ten source labels and separate annual y-axis scales; missing years remain gaps.",
+      "The top ten labels account for 54.0% of known counts. See exported series for exact peaks.",
+      "Separate scales reveal shapes obscured by the global total.",
+      "Disease definitions change over time; no merged HPAI or tuberculosis continuity is assumed. Counts across disease definitions may not represent unique biological events."
+    ],
+    "04_disease_region_ranking": [
+      "Which diseases and regions contribute most known counts?",
+      "Sum known counts after verified duplication removal, subtype-preserving selection and category priority.",
+      "Paenibacillus larvae (American foulbrood) and Middle East lead their rankings.",
+      "Prioritise these contributors for source verification and targeted analysis.",
+      "Reported counts reflect reporting and heterogeneous outbreak definitions, not underlying risk; bee animal units must not be confused with outbreak counts."
+    ],
+    "05_region_trends": [
+      "Do regions show different temporal patterns?",
+      "Annual regional sums with missing region-years left as gaps.",
+      "The largest cumulative regional share is Middle East (25.0%).",
+      "Review regional peaks separately rather than infer a single global trajectory.",
+      "Country participation and administrative coverage vary; regional totals lack population denominators."
+    ],
+    "06_disease_region_heatmap": [
+      "Which top diseases dominate where?",
+      "Known disease-region counts on log10(count+1); blanks are unobserved, explicit zero remains zero.",
+      "Paenibacillus larvae (American foulbrood) is the highest-count source disease label overall.",
+      "Log colour supports comparison across large differences in scale.",
+      "Colour does not indicate adjusted risk or establish disease absence in blank cells."
+    ],
+    "07_region_composition": [
+      "How does the disease mix differ across regions?",
+      "Shares of each regional known-count total: top ten labels plus all other observed disease labels.",
+      "Top ten labels contribute 54.0% globally; regional mixes are in disease_region.csv.",
+      "Composition is useful for choosing regional disease case studies.",
+      "Shares condition on known counts. Blank combinations add no observed contribution; this does not impute disease absence."
+    ],
+    "08_disease_year_heatmap": [
+      "Which high-count diseases have abrupt peaks or changing label coverage?",
+      "Log10 annual sums for unchanged top source labels, with gaps retained.",
+      "The global count peak is 2011; each disease may peak in a different year.",
+      "Compare concentrated spikes with sustained patterns before selecting a model.",
+      "Renamed or newly introduced labels may create structural gaps; missing data are not zero."
+    ],
+    "09_half_year_patterns": [
+      "Is the reporting-period distribution uneven?",
+      "Pool known counts by Jan\u2013Jun and Jul\u2013Dec for top diseases; show semester-year totals separately.",
+      "Bluetongue has 92.7% of known counts in Jul\u2013Dec. Shares describe reporting periods, not monthly onset seasonality.",
+      "Use these contrasts to design region-specific seasonal follow-up.",
+      "Pooled hemispheres, reporting lag, one-off peaks, and incomplete coverage can mimic seasonality. No monthly or significance claim is supported."
+    ],
+    "10_exploratory_anomalies": [
+      "Which recent semester counts depart from their historical same-half baseline?",
+      "Prior five consecutive same-half years only; log1p(known counts / disease-specific observed countries), median and scaled MAD; screen positive robust scores >3.5. Skip incomplete-count periods and zero MAD.",
+      "467 flags among 6425 eligible comparisons. The figure prioritises selected diseases with at least three observed countries and 50 known counts, one region per disease. For Asia/FMD 2022 half 1, observed counts per reporting country are 2,488.8 versus historical median 85.5 (29.1\u00d7); Indonesia contributes 32,078 known counts.",
+      "Use flags as a reproducible triage list for source review; five points are too few for calibrated tail probabilities.",
+      "No p-values, false-positive calibration, causal inference or forecast validation. Country composition may change, denominator is a reporting proxy, and excluded ambiguous groups can lower counts."
+    ],
+    "11_country_ranking": [
+      "Are known counts concentrated in a few countries?",
+      "Rank cumulative known country counts after regional de-duplication.",
+      "The top five countries account for 41.0%.",
+      "Concentration motivates country-level sensitivity checks.",
+      "No livestock denominators, comparable surveillance capacity or uniform outbreak definition."
+    ],
+    "12_priority_disease_regions": [
+      "Which regions drive changes in selected diseases?",
+      "Separate annual regional sums for six observed source disease labels; HPAI categories remain separate; no absent years are filled.",
+      "Peak observed global years: African swine fever: 2021 (15,477); Foot and mouth disease: 2022 (62,180); Lumpy skin disease: 2022 (61,433); Bluetongue: 2008 (34,276); HPAI (poultry): 2022 (4,118); HPAI (non-poultry, 2017\u2013): 2022 (5,014).",
+      "These peaks identify focused disease-region case studies for Challenge 6.",
+      "Coverage and source definitions change; the non-poultry HPAI label begins in 2017 and cannot be compared with an invented pre-2017 zero baseline."
+    ]
+  }
+}

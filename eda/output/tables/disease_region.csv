@@ -1,0 +1,585 @@
+Disease,World region,outbreaks,summary_groups,unknown_groups,countries_with_known_counts
+Abalone herpesvirus (Inf. with),Americas,12.0,1,0,1
+Abalone herpesvirus (Inf. with),Oceania,14.0,11,0,1
+Acarapis woodi (Inf. of honey bees with),Americas,936.0,127,0,4
+Acarapis woodi (Inf. of honey bees with),Asia,833.0,322,0,2
+Acarapis woodi (Inf. of honey bees with),Europe,353.0,89,0,7
+Acarapis woodi (Inf. of honey bees with),Middle East,5576.0,26,0,1
+Acute hepatopancreatic necrosis disease (2016-),Americas,14.0,11,0,2
+Acute hepatopancreatic necrosis disease (2016-),Asia,8420.0,127,0,8
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Africa,35.0,10,0,4
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Americas,2812.0,298,0,13
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Asia,353.0,33,0,3
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Europe,180.0,16,0,1
+African horse sickness virus (Inf. with),Africa,6384.0,399,0,18
+African horse sickness virus (Inf. with),Asia,18.0,18,0,2
+African horse sickness virus (Inf. with),Middle East,20.0,1,0,1
+African swine fever virus (Inf. with),Africa,4664.0,1487,0,30
+African swine fever virus (Inf. with),Americas,41.0,16,0,2
+African swine fever virus (Inf. with),Asia,20528.0,1019,0,21
+African swine fever virus (Inf. with),Europe,69231.0,2925,0,24
+Anthrax,Africa,10673.0,1203,0,36
+Anthrax,Americas,1369.0,607,0,17
+Anthrax,Asia,2460.0,830,0,19
+Anthrax,Europe,766.0,390,0,25
+Anthrax,Middle East,4915.0,1582,0,8
+Anthrax,Oceania,92.0,40,0,1
+Aphanomyces astaci (Inf. with)(Crayfish plague),Asia,9.0,6,0,3
+Aphanomyces astaci (Inf. with)(Crayfish plague),Europe,233.0,133,0,9
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Africa,209.0,89,0,5
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Americas,1.0,1,0,1
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Asia,324.0,19,0,5
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Europe,1.0,1,0,1
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Oceania,49.0,30,0,1
+Atrophic rhinitis of swine (-2005),Americas,123.0,8,0,2
+Atrophic rhinitis of swine (-2005),Asia,127.0,30,0,2
+Atrophic rhinitis of swine (-2005),Europe,121.0,7,0,5
+Aujeszky's disease virus (Inf. with),Americas,4196.0,357,0,9
+Aujeszky's disease virus (Inf. with),Asia,3032.0,649,0,6
+Aujeszky's disease virus (Inf. with),Europe,43823.0,1038,0,29
+Aujeszky's disease virus (Inf. with),Oceania,1.0,1,0,1
+Avian chlamydiosis,Africa,52.0,36,0,2
+Avian chlamydiosis,Americas,52.0,36,0,4
+Avian chlamydiosis,Asia,199.0,107,0,7
+Avian chlamydiosis,Europe,3458.0,870,0,24
+Avian chlamydiosis,Oceania,5.0,3,0,2
+Avian infectious bronchitis,Africa,1698.0,197,0,17
+Avian infectious bronchitis,Americas,32891.0,1150,0,14
+Avian infectious bronchitis,Asia,39788.0,1877,0,12
+Avian infectious bronchitis,Europe,1774.0,185,0,15
+Avian infectious bronchitis,Middle East,42051.0,319,0,8
+Avian infectious laryngotracheitis,Africa,25.0,20,0,6
+Avian infectious laryngotracheitis,Americas,6903.0,728,0,11
+Avian infectious laryngotracheitis,Asia,18176.0,1062,0,9
+Avian infectious laryngotracheitis,Europe,1176.0,362,0,19
+Avian infectious laryngotracheitis,Middle East,234.0,92,0,5
+Avian tuberculosis (-2005),Americas,4.0,4,0,2
+Avian tuberculosis (-2005),Asia,2.0,2,0,1
+Avian tuberculosis (-2005),Europe,139.0,23,0,12
+Bacterial kidney disease (Renibacterium salmoninarum)(-2006),Europe,35.0,14,0,3
+Batrachochytrium dendrobatidis (Inf. with)(2009-),Americas,3.0,3,0,3
+Batrachochytrium dendrobatidis (Inf. with)(2009-),Asia,28.0,14,0,3
+Batrachochytrium dendrobatidis (Inf. with)(2009-),Europe,320.0,24,0,7
+Batrachochytrium dendrobatidis (Inf. with)(2009-),Oceania,30.0,14,0,1
+Batrachochytrium salamandrivorans (Inf. with)(2014-),Europe,8.0,7,0,2
+Bluetongue virus (Inf. with),Africa,5861.0,563,0,11
+Bluetongue virus (Inf. with),Americas,298.0,136,0,10
+Bluetongue virus (Inf. with),Asia,3385.0,376,0,6
+Bluetongue virus (Inf. with),Europe,128773.0,1629,0,31
+Bluetongue virus (Inf. with),Middle East,1016.0,185,0,12
+Bluetongue virus (Inf. with),Oceania,46.0,7,0,1
+Bonamia exitiosa (Inf. with),Americas,4.0,4,0,1
+Bonamia exitiosa (Inf. with),Europe,39.0,17,0,4
+Bonamia exitiosa (Inf. with),Oceania,20.0,12,0,2
+Bonamia ostreae (Inf. with),Europe,149.0,57,0,8
+Bonamia ostreae (Inf. with),Oceania,2.0,2,0,1
+Bovine anaplasmosis,Africa,27478.0,1370,2,22
+Bovine anaplasmosis,Americas,41248.0,2476,0,23
+Bovine anaplasmosis,Asia,3641.0,393,1,13
+Bovine anaplasmosis,Europe,1828.0,146,0,12
+Bovine anaplasmosis,Middle East,2499.0,517,0,11
+Bovine anaplasmosis,Oceania,18.0,5,0,2
+Bovine babesiosis,Africa,15143.0,1258,0,28
+Bovine babesiosis,Americas,38202.0,1966,0,21
+Bovine babesiosis,Asia,10253.0,1028,4,14
+Bovine babesiosis,Europe,708.0,136,0,18
+Bovine babesiosis,Middle East,8468.0,1184,0,11
+Bovine babesiosis,Oceania,92.0,7,0,2
+Bovine cysticercosis (-2014),Africa,170.0,4,0,2
+Bovine cysticercosis (-2014),Americas,10.0,3,0,2
+Bovine cysticercosis (-2014),Europe,115.0,34,0,9
+Bovine cysticercosis (-2014),Middle East,2.0,2,0,1
+Bovine cysticercosis (-2014),Oceania,1.0,1,0,1
+Bovine genital campylobacteriosis,Africa,260.0,97,0,3
+Bovine genital campylobacteriosis,Americas,240.0,80,0,6
+Bovine genital campylobacteriosis,Asia,15.0,15,0,2
+Bovine genital campylobacteriosis,Europe,280.0,58,0,10
+Bovine genital campylobacteriosis,Middle East,5.0,3,0,1
+Bovine genital campylobacteriosis,Oceania,4.0,3,0,1
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Africa,36.0,20,0,5
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Americas,12336.0,1836,0,17
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Asia,11959.0,1261,1,9
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Europe,48105.0,1299,0,25
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Middle East,456.0,127,0,5
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Oceania,4.0,2,0,2
+Bovine spongiform encephalopathy,Americas,30.0,29,0,3
+Bovine spongiform encephalopathy,Asia,22.0,11,0,1
+Bovine spongiform encephalopathy,Europe,1363.0,320,0,20
+Bovine tuberculosis (-2018),Africa,8274.0,932,0,28
+Bovine tuberculosis (-2018),Americas,34081.0,1736,0,23
+Bovine tuberculosis (-2018),Asia,7252.0,780,0,14
+Bovine tuberculosis (-2018),Europe,166390.0,1989,0,31
+Bovine tuberculosis (-2018),Middle East,17738.0,1676,0,9
+Bovine tuberculosis (-2018),Oceania,1746.0,44,0,2
+Brucella abortus (Inf. with),Africa,18893.0,1355,0,32
+Brucella abortus (Inf. with),Americas,153014.0,5204,0,22
+Brucella abortus (Inf. with),Asia,47005.0,2262,0,21
+Brucella abortus (Inf. with),Europe,30961.0,1676,1,17
+Brucella abortus (Inf. with),Middle East,23671.0,2432,0,13
+Brucella abortus (Inf. with),Oceania,218.0,19,0,1
+Brucella melitensis (Inf. with),Africa,5751.0,292,0,14
+Brucella melitensis (Inf. with),Americas,4061.0,303,0,6
+Brucella melitensis (Inf. with),Asia,42470.0,1696,0,13
+Brucella melitensis (Inf. with),Europe,33081.0,1328,0,16
+Brucella melitensis (Inf. with),Middle East,14495.0,2690,0,17
+Brucella suis (Inf. with),Africa,9.0,6,0,3
+Brucella suis (Inf. with),Americas,135.0,81,0,10
+Brucella suis (Inf. with),Asia,51.0,28,0,4
+Brucella suis (Inf. with),Europe,4148.0,418,0,22
+Brucella suis (Inf. with),Oceania,25.0,11,0,1
+Burkholderia mallei (Inf. with) (Glanders),Africa,3.0,3,0,1
+Burkholderia mallei (Inf. with) (Glanders),Americas,1571.0,375,0,1
+Burkholderia mallei (Inf. with) (Glanders),Asia,300.0,91,0,5
+Burkholderia mallei (Inf. with) (Glanders),Europe,3.0,3,0,2
+Burkholderia mallei (Inf. with) (Glanders),Middle East,467.0,120,0,7
+Camelpox virus (inf. with),Africa,148.0,52,0,6
+Camelpox virus (inf. with),Asia,8.0,4,0,4
+Camelpox virus (inf. with),Middle East,380.0,85,0,7
+Caprine arthritis/encephalitis,Americas,323.0,140,0,10
+Caprine arthritis/encephalitis,Asia,1852.0,375,0,6
+Caprine arthritis/encephalitis,Europe,1670.0,476,0,24
+Caprine arthritis/encephalitis,Middle East,80.0,32,0,1
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Africa,99.0,56,0,5
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Americas,362.0,20,0,2
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Asia,2820.0,299,0,5
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Europe,5409.0,681,0,21
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Middle East,581.0,132,0,4
+Chrysomya bezziana (Inf. with) (Old world screwworm),Africa,1905.0,160,0,5
+Chrysomya bezziana (Inf. with) (Old world screwworm),Asia,78.0,16,0,3
+Chrysomya bezziana (Inf. with) (Old world screwworm),Middle East,8579.0,210,0,5
+Classical swine fever virus (Inf. with),Africa,498.0,29,0,2
+Classical swine fever virus (Inf. with),Americas,4412.0,1115,0,14
+Classical swine fever virus (Inf. with),Asia,14944.0,1161,0,17
+Classical swine fever virus (Inf. with),Europe,4440.0,166,0,16
+Cochliomyia hominivorax (Inf. with) (New world screwworm),Africa,1.0,1,0,1
+Cochliomyia hominivorax (Inf. with) (New world screwworm),Americas,20614.0,365,0,16
+Contagious agalactia,Africa,2.0,2,0,1
+Contagious agalactia,Americas,4.0,4,0,2
+Contagious agalactia,Asia,1846.0,187,0,5
+Contagious agalactia,Europe,2973.0,209,0,9
+Contagious agalactia,Middle East,11859.0,442,0,2
+Contagious caprine pleuropneumonia,Africa,1596.0,440,0,15
+Contagious caprine pleuropneumonia,Asia,5492.0,617,0,5
+Contagious caprine pleuropneumonia,Europe,4.0,3,0,2
+Contagious caprine pleuropneumonia,Middle East,13379.0,488,0,11
+Coxiella burnetii (Inf. with) (Q fever),Africa,23.0,14,0,5
+Coxiella burnetii (Inf. with) (Q fever),Americas,62.0,18,0,4
+Coxiella burnetii (Inf. with) (Q fever),Asia,2399.0,245,0,8
+Coxiella burnetii (Inf. with) (Q fever),Europe,8948.0,1420,0,29
+Coxiella burnetii (Inf. with) (Q fever),Middle East,1649.0,159,0,7
+Crimean Congo haemorrhagic fever (2006-),Africa,7.0,6,0,4
+Crimean Congo haemorrhagic fever (2006-),Asia,6.0,4,0,2
+Crimean Congo haemorrhagic fever (2006-),Middle East,241.0,26,0,4
+Decapod iridescent virus 1 (Inf. with) (2022-),Asia,48.0,16,0,2
+Dermatophilosis (-2005),Africa,187.0,29,0,11
+Dermatophilosis (-2005),Americas,15.0,2,0,1
+Dermatophilosis (-2005),Asia,4.0,4,0,1
+Duck virus enteritis (-2005),Asia,677.0,30,0,2
+Duck virus enteritis (-2005),Europe,1.0,1,0,1
+Duck virus hepatitis,Africa,1.0,1,0,1
+Duck virus hepatitis,Asia,7706.0,614,0,7
+Duck virus hepatitis,Europe,81.0,13,0,2
+Eastern equine encephalitis virus (Inf. with) (Eastern equine encephalomyelitis) (2006-),Americas,481.0,157,0,11
+Echinococcosis/hydatidosis,Africa,1195.0,40,0,5
+Echinococcosis/hydatidosis,Americas,126169.0,193,0,7
+Echinococcosis/hydatidosis,Asia,379.0,83,0,9
+Echinococcosis/hydatidosis,Europe,7581.0,278,0,28
+Echinococcosis/hydatidosis,Middle East,453.0,90,0,4
+Echinococcus granulosus (Inf. with) (2014-),Africa,88.0,37,2,6
+Echinococcus granulosus (Inf. with) (2014-),Americas,260167.0,101,0,6
+Echinococcus granulosus (Inf. with) (2014-),Asia,1576.0,210,0,10
+Echinococcus granulosus (Inf. with) (2014-),Europe,8231.0,190,0,15
+Echinococcus granulosus (Inf. with) (2014-),Middle East,523.0,36,0,4
+Echinococcus multilocularis (Inf. with) (2014-),Americas,2.0,2,0,2
+Echinococcus multilocularis (Inf. with) (2014-),Asia,15.0,7,0,1
+Echinococcus multilocularis (Inf. with) (2014-),Europe,2068.0,234,0,10
+Enterovirus encephalomyelitis (-2005),Africa,4.0,1,0,1
+Enterovirus encephalomyelitis (-2005),Europe,13.0,9,0,2
+Enzootic bovine leukosis,Africa,526.0,20,0,4
+Enzootic bovine leukosis,Americas,18102.0,2084,0,21
+Enzootic bovine leukosis,Asia,33559.0,2092,0,7
+Enzootic bovine leukosis,Europe,31762.0,2778,0,31
+Enzootic bovine leukosis,Middle East,95.0,36,0,2
+Enzootic bovine leukosis,Oceania,9.0,8,0,2
+Epizootic haematopoietic necrosis virus (Inf. with),Oceania,6.0,6,0,1
+Epizootic hemorrhagic disease virus (Inf. with),Africa,261.0,27,0,5
+Epizootic hemorrhagic disease virus (Inf. with),Americas,11.0,8,0,4
+Epizootic hemorrhagic disease virus (Inf. with),Asia,156.0,22,0,2
+Epizootic hemorrhagic disease virus (Inf. with),Europe,1777.0,86,0,4
+Epizootic hemorrhagic disease virus (Inf. with),Middle East,33.0,11,0,1
+Epizootic lymphangitis (-2005),Africa,2.0,2,0,2
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Africa,25.0,11,0,2
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Americas,51.0,33,0,5
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Asia,224.0,48,0,5
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Europe,682.0,166,0,12
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Middle East,14.0,10,0,2
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Oceania,9.0,2,0,1
+Equine arteritis virus (Inf. with),Africa,2.0,2,0,2
+Equine arteritis virus (Inf. with),Americas,12.0,2,0,1
+Equine arteritis virus (Inf. with),Asia,2.0,1,0,1
+Equine arteritis virus (Inf. with),Europe,755.0,289,0,20
+Equine arteritis virus (Inf. with),Middle East,1.0,1,0,1
+Equine arteritis virus (Inf. with),Oceania,3.0,2,0,1
+Equine encephalomyelitis (Eastern and Western)(-2005),Americas,23.0,10,0,4
+Equine infectious anaemia,Africa,2.0,2,0,2
+Equine infectious anaemia,Americas,120369.0,4631,0,22
+Equine infectious anaemia,Asia,51.0,42,0,3
+Equine infectious anaemia,Europe,15199.0,1648,0,24
+Equine infectious anaemia,Middle East,3.0,3,0,1
+Equine influenza virus (Inf. with),Africa,81.0,21,0,5
+Equine influenza virus (Inf. with),Americas,1389.0,159,0,6
+Equine influenza virus (Inf. with),Asia,402.0,137,0,6
+Equine influenza virus (Inf. with),Europe,136.0,57,0,13
+Equine influenza virus (Inf. with),Middle East,20.0,18,0,7
+Equine influenza virus (Inf. with),Oceania,239.0,2,0,1
+Equine rhinopneumonitis (-2013),Africa,17.0,9,0,2
+Equine rhinopneumonitis (-2013),Americas,60.0,28,0,3
+Equine rhinopneumonitis (-2013),Asia,221.0,47,0,4
+Equine rhinopneumonitis (-2013),Europe,550.0,160,0,13
+Equine rhinopneumonitis (-2013),Middle East,1.0,1,0,1
+Foot and mouth disease virus (Inf. with),Africa,13108.0,3426,1,38
+Foot and mouth disease virus (Inf. with),Americas,421.0,189,0,7
+Foot and mouth disease virus (Inf. with),Asia,97086.0,3479,1,26
+Foot and mouth disease virus (Inf. with),Europe,107.0,31,0,3
+Foot and mouth disease virus (Inf. with),Middle East,55530.0,5499,1,18
+Fowl cholera (-2011),Africa,151.0,47,0,12
+Fowl cholera (-2011),Americas,1008.0,119,0,9
+Fowl cholera (-2011),Asia,16180.0,594,0,13
+Fowl cholera (-2011),Europe,1289.0,264,0,16
+Fowl cholera (-2011),Middle East,5.0,5,0,2
+Fowl pox (-2005),Africa,297.0,64,0,17
+Fowl pox (-2005),Americas,14.0,9,0,3
+Fowl pox (-2005),Asia,958.0,101,0,6
+Fowl pox (-2005),Europe,31.0,8,0,5
+Fowl pox (-2005),Oceania,1.0,1,0,1
+Fowl typhoid,Africa,2018.0,337,0,18
+Fowl typhoid,Americas,474.0,166,0,11
+Fowl typhoid,Asia,6600.0,688,0,10
+Fowl typhoid,Europe,1162.0,402,0,14
+Fowl typhoid,Middle East,81.0,14,0,3
+Gyrodactylus salaris (Inf. with),Americas,10.0,4,0,2
+Gyrodactylus salaris (Inf. with),Asia,1.0,1,0,1
+Gyrodactylus salaris (Inf. with),Europe,21.0,17,0,4
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Africa,7833.0,1057,0,20
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Americas,12.0,9,0,3
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Asia,20927.0,1475,0,19
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Europe,194.0,41,0,5
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Middle East,1838.0,429,0,8
+Haplosporidium nelsoni (Inf. with)(-2005),Europe,1.0,1,0,1
+Heartwater,Africa,23267.0,1376,0,26
+Heartwater,Middle East,376.0,71,0,3
+Hepatobacter penaei (Inf. with)(Necrotising hepatopancreatitis)(2011-),Americas,1204.0,84,0,8
+Hepatobacter penaei (Inf. with)(Necrotising hepatopancreatitis)(2011-),Asia,2730.0,2,0,1
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Africa,2333.0,404,0,20
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Americas,1926.0,322,0,8
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Asia,12537.0,1802,0,25
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Europe,8999.0,1104,0,35
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Middle East,3652.0,606,0,12
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Oceania,19.0,9,0,2
+Horse mange (-2005),Africa,4.0,2,0,1
+Horse mange (-2005),Americas,2.0,1,0,1
+Horse mange (-2005),Europe,5.0,2,0,2
+Horse pox (-2005),Africa,5.0,1,0,1
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Africa,73.0,46,0,6
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Americas,20586.0,2790,0,19
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Asia,1488.0,555,0,8
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Europe,24941.0,1159,0,33
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Middle East,550.0,177,0,5
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Oceania,1.0,1,0,1
+Infectious bursal disease (Gumboro disease),Africa,6605.0,881,0,29
+Infectious bursal disease (Gumboro disease),Americas,17118.0,745,0,13
+Infectious bursal disease (Gumboro disease),Asia,25211.0,2277,0,16
+Infectious bursal disease (Gumboro disease),Europe,744.0,155,0,15
+Infectious bursal disease (Gumboro disease),Middle East,8432.0,239,0,9
+Infectious bursal disease (Gumboro disease),Oceania,2.0,1,0,1
+Infectious haematopoietic necrosis virus (Inf. with),Africa,3.0,2,0,2
+Infectious haematopoietic necrosis virus (Inf. with),Americas,26.0,15,0,2
+Infectious haematopoietic necrosis virus (Inf. with),Asia,1290.0,55,0,3
+Infectious haematopoietic necrosis virus (Inf. with),Europe,638.0,259,0,18
+Infectious haematopoietic necrosis virus (Inf. with),Middle East,112.0,44,0,1
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Americas,6588.0,372,0,14
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Asia,3543.0,243,0,8
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Europe,3.0,3,0,1
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Oceania,20.0,12,0,3
+Infectious myonecrosis virus (Inf. with)(2008-),Americas,1.0,1,0,1
+Infectious myonecrosis virus (Inf. with)(2008-),Asia,53.0,34,0,4
+Infectious pancreatic necrosis (-2006),Europe,186.0,25,0,8
+Infectious pancreatic necrosis (-2006),Middle East,16.0,7,0,2
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Americas,411.0,128,0,3
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Europe,250.0,62,0,4
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Africa,234.0,52,0,7
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Americas,2118.0,258,0,21
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Asia,1398.0,338,0,14
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Europe,12106.0,2016,0,38
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Middle East,21.0,19,0,6
+Influenza A viruses of high pathogenicity (Inf. with) (non-poultry including wild birds) (2017-),Oceania,4.0,2,0,1
+Japanese encephalitis,Asia,865.0,317,0,5
+Japanese encephalitis,Oceania,85.0,4,0,1
+Koi herpesvirus (Inf. with),Africa,22.0,13,0,1
+Koi herpesvirus (Inf. with),Americas,22.0,15,0,2
+Koi herpesvirus (Inf. with),Asia,381.0,140,0,9
+Koi herpesvirus (Inf. with),Europe,2197.0,269,0,22
+Koi herpesvirus (Inf. with),Middle East,26.0,21,0,2
+Leishmania spp. (Inf. with) (Leishmaniosis),Africa,256.0,132,0,6
+Leishmania spp. (Inf. with) (Leishmaniosis),Americas,1981.0,50,0,8
+Leishmania spp. (Inf. with) (Leishmaniosis),Asia,515.0,181,0,4
+Leishmania spp. (Inf. with) (Leishmaniosis),Europe,8772.0,447,0,15
+Leishmania spp. (Inf. with) (Leishmaniosis),Middle East,10754.0,157,0,2
+Leishmania spp. (Inf. with) (Leishmaniosis),Oceania,4.0,4,0,2
+Leptospirosis,Africa,9.0,7,0,3
+Leptospirosis,Americas,10058.0,786,0,21
+Leptospirosis,Asia,1447.0,290,0,11
+Leptospirosis,Europe,6581.0,696,0,26
+Leptospirosis,Middle East,393.0,113,0,1
+Leptospirosis,Oceania,304.0,15,0,3
+Low pathogenic avian influenza (poultry) (2006-2021),Africa,271.0,42,0,3
+Low pathogenic avian influenza (poultry) (2006-2021),Americas,1027.0,220,0,8
+Low pathogenic avian influenza (poultry) (2006-2021),Asia,858.0,253,0,11
+Low pathogenic avian influenza (poultry) (2006-2021),Europe,396.0,219,0,14
+Low pathogenic avian influenza (poultry) (2006-2021),Middle East,14913.0,75,0,4
+Low pathogenic avian influenza (poultry) (2006-2021),Oceania,8.0,4,0,1
+Low pathogenicity avian influenza viruses transmissible to humans (Inf. with) (2022-),Africa,2.0,2,0,1
+Low pathogenicity avian influenza viruses transmissible to humans (Inf. with) (2022-),Asia,389.0,43,0,5
+Low pathogenicity avian influenza viruses transmissible to humans (Inf. with) (2022-),Europe,12.0,3,1,1
+Low pathogenicity avian influenza viruses transmissible to humans (Inf. with) (2022-),Middle East,3.0,2,0,1
+Lumpy skin disease virus (Inf. with),Africa,36370.0,2269,2,35
+Lumpy skin disease virus (Inf. with),Asia,79307.0,447,0,26
+Lumpy skin disease virus (Inf. with),Europe,2489.0,161,0,7
+Lumpy skin disease virus (Inf. with),Middle East,8303.0,737,0,17
+Macrobrachium rosenbergii nodavirus (Inf. with) (White tail disease) (2008-),Asia,98.0,59,0,5
+Macrobrachium rosenbergii nodavirus (Inf. with) (White tail disease) (2008-),Oceania,1.0,1,0,1
+Maedi-visna,Americas,236.0,49,0,6
+Maedi-visna,Asia,10.0,8,0,4
+Maedi-visna,Europe,3216.0,446,0,28
+Maedi-visna,Middle East,42.0,17,0,1
+Malignant catarrhal fever (wildebeest only)(2006-2008),Africa,221.0,37,0,5
+Malignant catarrhal fever (wildebeest only)(2006-2008),Americas,1.0,1,0,1
+Malignant catarrhal fever (wildebeest only)(2006-2008),Asia,12.0,5,0,2
+Malignant catarrhal fever (wildebeest only)(2006-2008),Europe,103.0,32,0,6
+Malignant catarrhal fever (wildebeest only)(2006-2008),Middle East,118.0,29,0,1
+Marek's disease (-2011),Africa,62.0,38,0,13
+Marek's disease (-2011),Americas,233.0,71,0,9
+Marek's disease (-2011),Asia,2627.0,516,0,11
+Marek's disease (-2011),Europe,864.0,96,0,14
+Marek's disease (-2011),Middle East,16.0,8,0,7
+Marteilia refringens (Inf. with),Africa,24.0,15,0,1
+Marteilia refringens (Inf. with),Europe,119.0,44,0,8
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Africa,9.0,6,0,1
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Americas,1421.0,245,0,10
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Asia,848.0,168,0,5
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Europe,14025.0,981,0,26
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Middle East,12717.0,33,0,1
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Oceania,129.0,20,0,1
+Mikrocytos roughleyi (Inf. with)(-2005),Oceania,2.0,1,0,1
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Africa,1864.0,203,0,16
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Americas,12620.0,721,1,19
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Asia,3050.0,316,0,8
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Europe,87555.0,744,0,23
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Middle East,13435.0,872,0,5
+Mycobacterium tuberculosis complex (Inf. with)(2019-),Oceania,280.0,12,0,2
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Africa,766.0,213,0,10
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Americas,17700.0,840,0,14
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Asia,6203.0,744,0,14
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Europe,683.0,228,0,19
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Middle East,781.0,46,0,6
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Oceania,26.0,2,0,1
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Africa,6661.0,1676,0,29
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Asia,3.0,1,0,1
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Middle East,217.0,64,0,3
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Africa,173.0,57,0,2
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Americas,12583.0,677,0,14
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Asia,831.0,155,0,6
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Europe,627.0,128,0,13
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Middle East,128.0,11,0,4
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Oceania,25.0,2,0,1
+Myxomatosis,Africa,2.0,2,0,1
+Myxomatosis,Americas,41.0,30,0,7
+Myxomatosis,Europe,1485.0,306,0,19
+Nairobi sheep disease,Middle East,11.0,5,0,1
+Newcastle disease virus (Inf. with),Africa,18606.0,3388,0,45
+Newcastle disease virus (Inf. with),Americas,1650.0,539,0,16
+Newcastle disease virus (Inf. with),Asia,27303.0,1625,0,24
+Newcastle disease virus (Inf. with),Europe,722.0,395,0,33
+Newcastle disease virus (Inf. with),Middle East,24874.0,1157,0,13
+Newcastle disease virus (Inf. with),Oceania,1.0,1,0,1
+Oncorhynchus masou virus disease (-2005),Asia,5.0,1,0,1
+Ostreid herpesvirus-1 microvariant (Inf. with)(-2014),Europe,3.0,3,0,3
+Ostreid herpesvirus-1 microvariant (Inf. with)(-2014),Oceania,2.0,1,0,1
+Ovine epididymitis (Brucella ovis),Africa,847.0,124,0,4
+Ovine epididymitis (Brucella ovis),Americas,2004.0,339,0,9
+Ovine epididymitis (Brucella ovis),Asia,204.0,25,0,1
+Ovine epididymitis (Brucella ovis),Europe,8377.0,681,0,13
+Ovine epididymitis (Brucella ovis),Middle East,20.0,7,0,3
+Ovine pulmonary adenomatosis (-2005),Africa,1.0,1,0,1
+Ovine pulmonary adenomatosis (-2005),Americas,6.0,2,0,1
+Ovine pulmonary adenomatosis (-2005),Europe,3.0,3,0,3
+Ovine pulmonary adenomatosis (-2005),Middle East,5.0,3,0,1
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Africa,53.0,29,0,4
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Americas,1166.0,142,0,9
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Asia,1535.0,460,0,5
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Europe,26672.0,2858,0,34
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Middle East,471589.0,363,0,3
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Oceania,22894.0,107,0,7
+Paratuberculosis,Africa,217.0,78,0,7
+Paratuberculosis,Americas,1311.0,392,0,15
+Paratuberculosis,Asia,9985.0,1245,0,12
+Paratuberculosis,Europe,31791.0,1274,0,28
+Paratuberculosis,Middle East,1901.0,423,0,8
+Paratuberculosis,Oceania,10.0,7,0,1
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Africa,348.0,75,0,7
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Americas,1380.0,125,0,5
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Asia,2153.0,310,0,6
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Europe,1498.0,635,0,23
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Middle East,102.0,29,0,2
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Oceania,8.0,7,0,2
+Perkinsus marinus (Inf. with),Africa,26.0,12,0,2
+Perkinsus marinus (Inf. with),Americas,268.0,18,0,2
+Perkinsus olseni (Inf. with)(2006-),Africa,8.0,7,0,1
+Perkinsus olseni (Inf. with)(2006-),Americas,1.0,1,0,1
+Perkinsus olseni (Inf. with)(2006-),Asia,22.0,11,0,4
+Perkinsus olseni (Inf. with)(2006-),Europe,54.0,17,0,2
+Perkinsus olseni (Inf. with)(2006-),Oceania,45.0,28,0,3
+Perkinsus olseni/atlanticus (Inf. with)(-2005),Europe,12.0,1,0,1
+Peste des petits ruminants virus (Inf. with),Africa,14419.0,3124,0,34
+Peste des petits ruminants virus (Inf. with),Asia,8149.0,577,0,12
+Peste des petits ruminants virus (Inf. with),Europe,163.0,14,0,3
+Peste des petits ruminants virus (Inf. with),Middle East,31215.0,1998,1,15
+Piscirickettsiosis (Piscirickettsia salmonis)(-2005),Europe,2.0,1,0,1
+Porcine reproductive and respiratory syndrome virus (Inf. with),Africa,32.0,5,0,2
+Porcine reproductive and respiratory syndrome virus (Inf. with),Americas,22038.0,883,0,12
+Porcine reproductive and respiratory syndrome virus (Inf. with),Asia,7134.0,1426,0,16
+Porcine reproductive and respiratory syndrome virus (Inf. with),Europe,2252.0,298,0,21
+Porcine reproductive and respiratory syndrome virus (Inf. with),Middle East,107.0,33,0,1
+Porcine reproductive and respiratory syndrome virus (Inf. with),Oceania,12.0,4,0,1
+Pullorum disease,Africa,286.0,120,0,9
+Pullorum disease,Americas,32.0,16,0,4
+Pullorum disease,Asia,90915.0,1236,0,13
+Pullorum disease,Europe,288.0,131,0,16
+Pullorum disease,Middle East,19.0,5,0,2
+Rabies virus (Inf. with),Africa,43839.0,4001,13,45
+Rabies virus (Inf. with),Americas,42515.0,4690,0,27
+Rabies virus (Inf. with),Asia,34760.0,4207,0,29
+Rabies virus (Inf. with),Europe,89396.0,4929,0,34
+Rabies virus (Inf. with),Middle East,15218.0,2098,0,14
+Ranavirus (Inf. with)(2009-),Americas,56.0,15,0,2
+Ranavirus (Inf. with)(2009-),Asia,18.0,11,0,4
+Ranavirus (Inf. with)(2009-),Europe,69.0,29,0,6
+Red sea bream iridovirus (Inf. with) (-2024),Americas,3.0,3,0,2
+Red sea bream iridovirus (Inf. with) (-2024),Asia,1687.0,99,0,6
+Rift Valley fever virus (Inf. with),Africa,1306.0,230,0,20
+Rift Valley fever virus (Inf. with),Middle East,168.0,17,0,4
+Salmonellosis (S. abortusovis),Africa,5.0,4,0,2
+Salmonellosis (S. abortusovis),Asia,3214.0,476,0,6
+Salmonellosis (S. abortusovis),Europe,697.0,214,0,8
+Salmonellosis (S. abortusovis),Middle East,27.0,6,0,1
+Salmonid alphavirus (Inf. with)(2014-),Europe,1216.0,25,0,3
+Scrapie,Africa,49.0,9,0,4
+Scrapie,Americas,503.0,85,0,3
+Scrapie,Asia,69.0,38,0,4
+Scrapie,Europe,4202.0,1037,0,22
+Scrapie,Middle East,367.0,104,0,2
+Sheep pox and goat pox,Africa,16889.0,1288,0,21
+Sheep pox and goat pox,Asia,8966.0,833,1,18
+Sheep pox and goat pox,Europe,632.0,71,0,4
+Sheep pox and goat pox,Middle East,16982.0,2012,0,14
+Spherical baculovirosis (Penaeus monodon-type baculovirus)(-2009),Asia,7.0,4,0,2
+Spherical baculovirosis (Penaeus monodon-type baculovirus)(-2009),Oceania,3.0,2,0,1
+Spring viraemia of carp virus (Inf. with),Americas,1.0,1,0,1
+Spring viraemia of carp virus (Inf. with),Asia,80.0,31,0,2
+Spring viraemia of carp virus (Inf. with),Europe,69.0,37,0,9
+Swine vesicular disease (-2014),Europe,281.0,55,0,2
+Taenia solium (Inf. with) (Porcine cysticercosis),Africa,1379.0,263,0,14
+Taenia solium (Inf. with) (Porcine cysticercosis),Americas,29872.0,202,0,9
+Taenia solium (Inf. with) (Porcine cysticercosis),Asia,474.0,144,0,1
+Taenia solium (Inf. with) (Porcine cysticercosis),Europe,85.0,37,0,7
+Taura syndrome virus (Inf. with),Americas,432.0,70,0,7
+Taura syndrome virus (Inf. with),Asia,282.0,82,0,6
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Africa,20.0,8,0,1
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Americas,15.0,13,0,1
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Asia,108.0,15,0,2
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Europe,696.0,180,0,17
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Middle East,1.0,1,0,1
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Africa,13157.0,1005,0,18
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Asia,6645.0,375,0,13
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Europe,37.0,7,0,2
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Middle East,48453.0,1408,0,11
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Africa,120.0,44,0,6
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Americas,8047.0,801,0,20
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Asia,341.0,54,0,6
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Europe,263.0,125,0,12
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Middle East,7.0,5,0,3
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Oceania,1.0,1,0,1
+"Theileria lestoquardi, Theileria luwenshuni and Theileria uilenbergi (Inf. with) (2024-)",Middle East,341.0,16,0,2
+Tilapia lake virus (Inf. with) (2023-),Americas,99.0,17,0,2
+Tilapia lake virus (Inf. with) (2023-),Asia,2.0,2,0,2
+Transmissible gastroenteritis,Americas,116.0,42,0,4
+Transmissible gastroenteritis,Asia,58927.0,1077,0,6
+Transmissible gastroenteritis,Europe,108.0,60,0,4
+Transmissible gastroenteritis,Middle East,29.0,9,0,1
+Transmissible gastroenteritis,Oceania,4.0,3,0,1
+Trichinella spp. (Inf. with),Africa,3.0,3,0,2
+Trichinella spp. (Inf. with),Americas,1019.0,236,0,4
+Trichinella spp. (Inf. with),Asia,601.0,153,0,4
+Trichinella spp. (Inf. with),Europe,24394.0,2553,0,34
+Trichinella spp. (Inf. with),Oceania,2.0,1,0,1
+Trichomonosis,Africa,576.0,154,0,3
+Trichomonosis,Americas,117.0,40,0,7
+Trichomonosis,Asia,143.0,59,0,2
+Trichomonosis,Europe,200.0,55,0,9
+Trichomonosis,Middle East,14.0,3,0,1
+Trichomonosis,Oceania,1.0,1,0,1
+Tropilaelaps spp. (Inf. of honey bees with),Asia,501.0,15,0,2
+"Trypanosoma Brucei, T. Congolense, T. Simiae and T. Vivax (Inf. with) (2022-)",Africa,981.0,144,0,10
+"Trypanosoma Brucei, T. Congolense, T. Simiae and T. Vivax (Inf. with) (2022-)",Americas,97.0,48,0,1
+"Trypanosoma Brucei, T. Congolense, T. Simiae and T. Vivax (Inf. with) (2022-)",Asia,142.0,9,0,2
+"Trypanosoma Brucei, T. Congolense, T. Simiae and T. Vivax (Inf. with) (2022-)",Middle East,95.0,39,0,3
+Trypanosoma equiperdum (Inf. with) (Dourine),Africa,349.0,164,0,3
+Trypanosoma equiperdum (Inf. with) (Dourine),Asia,712.0,77,0,1
+Trypanosoma equiperdum (Inf. with) (Dourine),Europe,616.0,203,0,2
+Trypanosoma equiperdum (Inf. with) (Dourine),Middle East,1.0,1,0,1
+Trypanosoma evansi (Inf. with) (Surra),Africa,682.0,52,0,5
+Trypanosoma evansi (Inf. with) (Surra),Americas,133.0,63,0,5
+Trypanosoma evansi (Inf. with) (Surra),Asia,694.0,113,0,10
+Trypanosoma evansi (Inf. with) (Surra),Europe,3.0,3,0,1
+Trypanosoma evansi (Inf. with) (Surra),Middle East,1650.0,170,0,7
+Trypanosomosis (tsetse-transmitted) (-2021),Africa,5568.0,1517,0,28
+Trypanosomosis (tsetse-transmitted) (-2021),Americas,1831.0,318,0,6
+Trypanosomosis (tsetse-transmitted) (-2021),Asia,2167.0,314,0,10
+Trypanosomosis (tsetse-transmitted) (-2021),Middle East,1320.0,155,0,3
+Tularemia,Americas,11.0,6,0,1
+Tularemia,Europe,2154.0,362,0,18
+Turkey rhinotracheitis (2006-),Americas,91.0,7,0,2
+Turkey rhinotracheitis (2006-),Asia,240.0,86,0,1
+Turkey rhinotracheitis (2006-),Europe,113.0,23,0,4
+Varroa spp. (Inf. of honey bees with) (Varroosis),Africa,1233.0,323,0,6
+Varroa spp. (Inf. of honey bees with) (Varroosis),Americas,21703.0,1378,0,17
+Varroa spp. (Inf. of honey bees with) (Varroosis),Asia,2068.0,190,0,5
+Varroa spp. (Inf. of honey bees with) (Varroosis),Europe,143421.0,2333,0,31
+Varroa spp. (Inf. of honey bees with) (Varroosis),Middle East,268797.0,135,0,4
+Varroa spp. (Inf. of honey bees with) (Varroosis),Oceania,339.0,11,0,2
+Venezuelan equine encephalomyelitis,Americas,276.0,155,0,9
+Vesicular stomatitis (-2014),Americas,8728.0,1542,0,15
+Viral encephalopathy and retinopathy (-2005),Asia,14.0,4,0,2
+Viral encephalopathy and retinopathy (-2005),Oceania,11.0,5,0,1
+Viral haemorrhagic septicaemia virus (Inf. with),Americas,38.0,29,0,2
+Viral haemorrhagic septicaemia virus (Inf. with),Asia,187.0,30,0,2
+Viral haemorrhagic septicaemia virus (Inf. with),Europe,920.0,345,0,22
+Viral haemorrhagic septicaemia virus (Inf. with),Middle East,167.0,52,0,2
+West Nile Fever,Africa,64.0,28,0,6
+West Nile Fever,Americas,2197.0,140,0,11
+West Nile Fever,Asia,221.0,76,0,1
+West Nile Fever,Europe,3285.0,494,0,18
+West Nile Fever,Middle East,27.0,17,0,4
+West Nile Fever,Oceania,8.0,1,0,1
+Western equine encephalitis virus (Inf. with) (Western equine encephalomyelitis) (2006-),Americas,1538.0,51,0,4
+White spot syndrome virus (Inf. with),Africa,2.0,2,0,2
+White spot syndrome virus (Inf. with),Americas,1718.0,183,0,11
+White spot syndrome virus (Inf. with),Asia,13753.0,389,0,15
+White spot syndrome virus (Inf. with),Middle East,63.0,28,0,2
+White spot syndrome virus (Inf. with),Oceania,17.0,7,0,1
+Xenohaliotis californiensis (Inf. with),Americas,1.0,1,0,1
+Xenohaliotis californiensis (Inf. with),Asia,12.0,6,0,1
+Xenohaliotis californiensis (Inf. with),Europe,4.0,1,0,1
+Yellow head disease (-2018),Asia,216.0,76,0,6
+Yellow head disease (-2018),Oceania,2.0,1,0,1
+Yellow head virus genotype 1 (Inf. with) (2019-),Asia,8.0,7,0,2

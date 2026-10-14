@@ -1,0 +1,198 @@
+Country,World region,outbreaks,summary_groups,unknown_groups,countries_with_known_counts
+Afghanistan,Middle East,13912.0,2657,2,1
+Albania,Europe,1788.0,553,0,1
+Algeria,Africa,35230.0,1277,0,1
+Andorra,Europe,82.0,36,0,1
+Angola,Africa,717.0,228,0,1
+Argentina,Americas,42326.0,1369,1,1
+Armenia,Asia,12138.0,463,0,1
+Aruba,Americas,170.0,1,0,1
+Australia,Oceania,1734.0,232,0,1
+Austria,Europe,5484.0,811,0,1
+Azerbaijan,Asia,3419.0,506,0,1
+Bahrain,Middle East,1680.0,79,0,1
+Bangladesh,Asia,881.0,65,0,1
+Barbados,Americas,65.0,21,0,1
+Belarus,Europe,12780.0,519,0,1
+Belgium,Europe,10453.0,638,0,1
+Belize,Americas,384.0,156,0,1
+Benin,Africa,7098.0,3119,2,1
+Bhutan,Asia,884.0,490,0,1
+Bolivia,Americas,17358.0,1119,0,1
+Bosnia and Herzegovina,Europe,11830.0,560,0,1
+Botswana,Africa,2734.0,973,0,1
+Brazil,Americas,207878.0,4135,0,1
+Brunei,Asia,85.0,10,0,1
+Bulgaria,Europe,7801.0,408,0,1
+Burkina Faso,Africa,4461.0,1669,0,1
+Burundi,Africa,2431.0,576,0,1
+Cabo verde,Africa,8.0,7,0,1
+Cambodia,Asia,2102.0,657,0,1
+Cameroon,Africa,4092.0,1091,0,1
+Canada,Americas,8965.0,1207,0,1
+Cayman Islands,Americas,2.0,2,0,1
+Central African (Rep.),Africa,387.0,68,0,1
+Ceuta,Africa,3.0,3,0,1
+Chad,Africa,847.0,435,0,1
+Chile,Americas,313096.0,1815,0,1
+China (People's Rep. of),Asia,339953.0,14804,0,1
+Chinese Taipei,Asia,5570.0,1185,0,1
+Colombia,Americas,105297.0,8713,0,1
+Comoros,Africa,217.0,32,0,1
+Congo (Dem. Rep. of the),Africa,2212.0,1131,0,1
+Congo (Rep. of the),Africa,504.0,187,13,1
+Costa Rica,Americas,18959.0,1204,0,1
+Cote D'Ivoire,Africa,1209.0,638,0,1
+Croatia,Europe,20723.0,3245,0,1
+Cuba,Americas,21819.0,1734,0,1
+Cyprus,Middle East,13560.0,699,0,1
+Czech Republic,Europe,5906.0,350,0,1
+Denmark,Europe,3482.0,565,0,1
+Djibouti,Middle East,93.0,50,0,1
+Dominican (Rep.),Americas,12030.0,1650,0,1
+Ecuador,Americas,18721.0,3569,0,1
+Egypt,Middle East,15018.0,2910,0,1
+El Salvador,Americas,7803.0,835,0,1
+Eritrea,Africa,519.0,406,1,1
+Estonia,Europe,11710.0,494,0,1
+Eswatini,Africa,3273.0,746,0,1
+Ethiopia,Africa,26590.0,516,0,1
+Faeroe Islands,Europe,22.0,15,0,1
+Falkland Islands (Malvinas),Americas,17.0,7,0,1
+Fiji,Oceania,1401.0,57,0,1
+Finland,Europe,3789.0,571,0,1
+France,Europe,58364.0,1642,0,1
+French Guiana,Americas,39.0,17,0,1
+French Polynesia,Oceania,326.0,48,0,1
+Gabon,Africa,71.0,30,0,1
+Gambia,Africa,688.0,44,0,1
+Georgia,Asia,4840.0,673,0,1
+Germany,Europe,81436.0,1342,1,1
+Ghana,Africa,13802.0,1325,0,1
+Greece,Europe,16562.0,587,0,1
+Greenland,Americas,73.0,26,0,1
+Guadeloupe,Americas,18.0,7,0,1
+Guatemala,Americas,8045.0,2147,0,1
+Guinea,Africa,1697.0,645,0,1
+Guinea-Bissau,Africa,606.0,99,0,1
+Guyana,Americas,30.0,12,0,1
+Haiti,Americas,369.0,85,0,1
+Honduras,Americas,6472.0,1194,0,1
+Hong Kong,Asia,383.0,111,0,1
+Hungary,Europe,19245.0,1571,0,1
+Iceland,Europe,102.0,58,0,1
+India,Asia,104796.0,3927,0,1
+Indonesia,Asia,106831.0,1077,0,1
+Iran,Middle East,875688.0,5763,0,1
+Iraq,Middle East,24355.0,2575,0,1
+Ireland,Europe,95802.0,329,0,1
+Israel,Asia,14358.0,2871,0,1
+Italy,Europe,73092.0,3579,0,1
+Jamaica,Americas,2932.0,26,0,1
+Japan,Asia,57967.0,6103,0,1
+Jordan,Middle East,1495.0,382,0,1
+Kazakhstan,Asia,120.0,81,0,1
+Kenya,Africa,5237.0,1693,0,1
+Korea (Dem People's Rep. of),Asia,169.0,18,0,1
+Korea (Rep. of),Asia,33321.0,3487,0,1
+Kuwait,Middle East,5511.0,483,0,1
+Kyrgyzstan,Asia,6364.0,355,0,1
+Laos,Asia,613.0,136,0,1
+Latvia,Europe,9918.0,643,0,1
+Lebanon,Middle East,25.0,14,0,1
+Lesotho,Africa,1256.0,580,0,1
+Liberia,Africa,23.0,20,0,1
+Libya,Middle East,101284.0,181,0,1
+Liechtenstein,Europe,145.0,58,0,1
+Lithuania,Europe,9213.0,327,0,1
+Luxembourg,Europe,675.0,75,0,1
+Madagascar,Africa,4269.0,315,0,1
+Malawi,Africa,636.0,243,0,1
+Malaysia,Asia,5377.0,932,0,1
+Maldives,Asia,4.0,4,0,1
+Mali,Africa,529.0,210,0,1
+Malta,Europe,495.0,34,0,1
+Martinique,Americas,14.0,5,0,1
+Mauritania,Africa,366.0,190,0,1
+Mauritius,Africa,183.0,13,0,1
+Mayotte,Africa,124.0,3,0,1
+Melilla,Africa,23.0,9,0,1
+Mexico,Americas,159595.0,6248,0,1
+Moldova,Europe,2107.0,641,0,1
+Mongolia,Asia,5699.0,883,0,1
+Montenegro,Europe,2293.0,502,0,1
+Morocco,Africa,13656.0,776,0,1
+Mozambique,Africa,1868.0,945,3,1
+Myanmar,Asia,3622.0,586,0,1
+Namibia,Africa,6726.0,930,0,1
+Nepal,Asia,15625.0,815,0,1
+Netherlands,Europe,11818.0,599,0,1
+New Caledonia,Oceania,384.0,65,0,1
+New Zealand,Oceania,23048.0,99,0,1
+Nicaragua,Americas,15677.0,2086,0,1
+Niger,Africa,5684.0,520,0,1
+Nigeria,Africa,12095.0,2530,0,1
+North Macedonia,Europe,4875.0,1037,0,1
+Norway,Europe,2750.0,695,0,1
+Oman,Middle East,26875.0,271,0,1
+Pakistan,Asia,22450.0,276,2,1
+Palestine,Asia,11220.0,526,0,1
+Panama,Americas,16312.0,1424,0,1
+Papua New Guinea,Oceania,3.0,3,0,1
+Paraguay,Americas,6391.0,1180,0,1
+Peru,Americas,133537.0,2521,0,1
+Philippines,Asia,9644.0,887,0,1
+Poland,Europe,191347.0,5320,0,1
+Portugal,Europe,6714.0,436,0,1
+Qatar,Middle East,803.0,234,0,1
+Reunion,Africa,707.0,15,0,1
+Romania,Europe,42935.0,4069,0,1
+Russia,Europe,71964.0,9114,1,1
+Rwanda,Africa,5850.0,282,0,1
+Saint Vincent and the Grenadines,Americas,202.0,30,0,1
+Samoa,Oceania,7.0,6,0,1
+San Marino,Europe,12.0,2,0,1
+Sao Tome and Principe,Africa,50.0,3,0,1
+Saudi Arabia,Middle East,8319.0,918,0,1
+Senegal,Africa,2133.0,801,0,1
+Serbia,Europe,11186.0,599,0,1
+Serbia and Montenegro,Europe,3818.0,76,0,1
+Seychelles,Africa,2.0,2,0,1
+Sierra Leone,Africa,216.0,24,0,1
+Singapore,Asia,123.0,75,0,1
+Slovakia,Europe,3667.0,293,0,1
+Slovenia,Europe,4268.0,891,0,1
+Somalia,Middle East,5952.0,559,0,1
+South Africa,Africa,32134.0,2907,0,1
+South Georgia and the South Sandwich Islands,Americas,5.0,1,0,1
+South Sudan (Rep. of),Africa,63.0,42,0,1
+Spain,Europe,134196.0,3762,0,1
+Sri Lanka,Asia,9429.0,2426,6,1
+St. Lucia,Americas,1.0,1,0,1
+Sudan,Middle East,1807.0,949,0,1
+Suriname,Americas,2.0,1,0,1
+Sweden,Europe,877.0,364,0,1
+Switzerland,Europe,31506.0,4060,0,1
+Syria,Middle East,1307.0,338,0,1
+Tajikistan,Asia,2512.0,311,0,1
+Tanzania,Africa,6618.0,2610,0,1
+Thailand,Asia,21667.0,5208,0,1
+Timor-Leste,Asia,138.0,4,0,1
+Togo,Africa,8215.0,1313,0,1
+Trinidad and Tobago,Americas,30.0,29,0,1
+Tunisia,Africa,15527.0,1499,0,1
+Turkmenistan,Asia,74.0,32,0,1
+Türkiye (Rep. of),Middle East,66242.0,12921,0,1
+Uganda,Africa,917.0,761,0,1
+Ukraine,Europe,27403.0,1551,0,1
+United Arab Emirates,Middle East,477.0,195,0,1
+United Kingdom,Europe,139705.0,875,0,1
+United States of America,Americas,4069.0,439,0,1
+Uruguay,Americas,6187.0,1981,0,1
+Uzbekistan,Asia,155.0,13,0,1
+Vanuatu,Oceania,1.0,1,0,1
+Venezuela,Americas,13180.0,1161,0,1
+Vietnam,Asia,64692.0,1575,0,1
+Yemen,Middle East,11130.0,152,0,1
+Zambia,Africa,15055.0,2207,0,1
+Zimbabwe,Africa,86438.0,2224,1,1

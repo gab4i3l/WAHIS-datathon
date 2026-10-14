@@ -1,0 +1,90 @@
+{
+  "input": "/Users/euniceng/Documents/WAHIS-datathon/WAHIS_data.csv",
+  "sha256": "3e858a8672a079667fad6ffb6ca72136ef3e766dcc5b96d95c95253a6911b184",
+  "input_rows": 657148,
+  "policy": "prefer-both",
+  "out_of_scope_or_invalid_year_rows": 29428,
+  "synthetic_rows_excluded": 0,
+  "countries_reassigned_to_middle_east": [
+    "Afghanistan",
+    "Bahrain",
+    "Cyprus",
+    "Djibouti",
+    "Egypt",
+    "Iran",
+    "Iraq",
+    "Jordan",
+    "Kuwait",
+    "Lebanon",
+    "Libya",
+    "Oman",
+    "Qatar",
+    "Saudi Arabia",
+    "Somalia",
+    "Sudan",
+    "Syria",
+    "T\u00fcrkiye (Rep. of)",
+    "United Arab Emirates",
+    "Yemen"
+  ],
+  "verified_duplicate_rows_removed": 80622,
+  "outbreak_id_rows_excluded": 1738,
+  "candidate_summary_rows": 227143,
+  "missing_numeric_summary_rows": 55,
+  "conflicting_summary_keys_excluded": 0,
+  "same_key_same_count_rows_removed": 0,
+  "selected_summary_groups": 225379,
+  "category_fallback_groups": 44095,
+  "both_only_known_outbreaks": 3923628.0,
+  "category_fallback_known_outbreaks": 784440.0,
+  "selected_unknown_groups": 33,
+  "detail_groups_without_summary": 30617,
+  "selected_known_outbreaks": 4708068.0,
+  "diseases": 155,
+  "countries": 197,
+  "regions": [
+    "Africa",
+    "Americas",
+    "Asia",
+    "Europe",
+    "Middle East",
+    "Oceania"
+  ],
+  "input_mode": "audited raw fallback; upstream export not present",
+  "climate": {
+    "status": "Audited join only; no association or predictive claims.",
+    "observed_country_semesters": 5793,
+    "complete_climate_matches": 5756,
+    "match_pct": 99.36129811841879,
+    "unmatched_countries": [
+      "Cayman Islands",
+      "French Guiana",
+      "Guadeloupe",
+      "Martinique",
+      "Mayotte",
+      "Reunion"
+    ],
+    "shared_iso3_codes": [
+      {
+        "Country": "Ceuta",
+        "iso3": "ESP"
+      },
+      {
+        "Country": "Melilla",
+        "iso3": "ESP"
+      },
+      {
+        "Country": "Serbia",
+        "iso3": "SRB"
+      },
+      {
+        "Country": "Serbia and Montenegro",
+        "iso3": "SRB"
+      },
+      {
+        "Country": "Spain",
+        "iso3": "ESP"
+      }
+    ]
+  }
+}

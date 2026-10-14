@@ -1,0 +1,4 @@
+__pycache__/
+.ipynb_checkpoints/
+output/tables/orphan_detail_groups.csv
+output/tables/country_disease_year.csv
