@@ -42,6 +42,10 @@
   "selected_known_outbreaks": 4708068.0,
   "diseases": 155,
   "countries": 197,
+  "observed_semesters_2024": [
+    1,
+    2
+  ],
   "regions": [
     "Africa",
     "Americas",

@@ -25,7 +25,7 @@ One selected row is an administrative-division × disease × subtype × country 
 Only blank-Species, blank/dash-Outbreak_id rows qualify. Prefer Both animal categories per subtype group; otherwise sum the existing Domestic/Wild summaries, without inventing an absent category. If any present category count is unknown, its group count stays unknown. A numeric fallback is therefore a known reported count, not evidence both categories were surveyed. Both-only sensitivity is reported above.
 Verified copies removed: 80,622; same-key/same-count summaries removed: 0; conflicting summary keys: 0, quarantined with their subtype groups. Missing selected counts: 33. Detail groups without any summary: 30,617; excluded without zero inference.
 Middle East member countries are assigned to Middle East for disjoint analysis. Exact copies are removed after reassignment; unmatched records are retained except ambiguous summary keys, which are excluded and exported for adjudication. This changes geographic categorisation, not original files.
-No disease relabelling is applied. Year is restricted to 2005–2024 despite later years in the raw input. Dates represent reporting semesters, not validated outbreak onset dates. Both 2024 halves are observed, but submission completeness/cutoff cannot be established from this file. All sums are known reported contributions and can be partial.
+No disease relabelling is applied. Year is restricted to 2005–2024 despite later years in the raw input. Dates represent reporting semesters, not validated outbreak onset dates. Observed 2024 semester coverage is listed above; submission completeness/cutoff cannot be established from this file. All sums are known reported contributions and can be partial.
 Missing disease–time/geography combinations remain unknown in analytical tables and heatmaps. No country-disease absence is inferred from reporting another disease. Counts per observed reporting country are a sensitivity proxy, not an incidence rate or complete adjustment for surveillance.
 The existing script.ipynb creates synthetic zero summaries in its first cleaning cell but ignores them in its later analysis, which also fills absent disease periods with zero. Its stated model results are not adopted or revalidated here. Teammate files are unchanged.
 
@@ -53,7 +53,7 @@ The existing script.ipynb creates synthetic zero summaries in its first cleaning
 
 **Method:** Sum by explicit reporting semester; add a trailing mean of four observed semesters.
 
-**Observation:** 2024 contains 2 semester labels; country coverage is half 1: 129, half 2: 126.
+**Observation:** 2024 contains 2 semesters with eligible known counts; country coverage is half 1: 129, half 2: 126.
 
 **Interpretation:** Half-year variation can guide finer data requests.
 

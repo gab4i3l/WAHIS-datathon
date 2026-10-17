@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import pandas as pd
-from analysis import load_and_validate, aggregate, build_tables
+from analysis import load_and_validate, aggregate, build_tables, interpretations
 
 
 def row(**updates):
@@ -63,6 +63,22 @@ class SelectionTests(unittest.TestCase):
         t=build_tables(s)
         self.assertTrue(t['annual'].loc[t['annual'].Year.eq(2006),'outbreaks'].isna().all())
         self.assertEqual(len(t['anomaly_flags']),0)
+
+    def test_report_handles_absent_2024_coverage(self):
+        s,a,_,_=self.load([row()],'both-only')
+        findings,notes=interpretations(build_tables(s),a)
+        self.assertIn('no eligible numeric summary counts', notes['02_semester_trend'][2])
+        self.assertEqual(a['observed_semesters_2024'],[])
+
+    def test_fractional_year_rejected(self):
+        with self.assertRaises(ValueError):self.load([row(**{'Year':2005.5})])
+
+    def test_unobserved_comparison_window_stays_unknown(self):
+        s,_,_,_=self.load([row(**{'Year':2020,'Semester':'Jan-Jun 2020'})])
+        change=build_tables(s)['disease_changes'].iloc[0]
+        self.assertTrue(pd.isna(change.early_2005_09))
+        self.assertTrue(pd.isna(change.fixed_early))
+        self.assertTrue(pd.isna(change.change_pct))
 
     def test_invalid_count_fails(self):
         with self.assertRaises(ValueError):self.load([row(**{'New outbreaks':'-2'})])

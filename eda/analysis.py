@@ -4,7 +4,8 @@ import argparse
 import hashlib
 import json
 import os
-os.environ.setdefault('MPLCONFIGDIR', '/private/tmp/wahis-mpl')
+import tempfile
+os.environ.setdefault('MPLCONFIGDIR', str(Path(tempfile.gettempdir()) / 'wahis-mpl'))
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
@@ -30,6 +31,8 @@ def aggregate(frame, keys):
 
 
 def load_and_validate(path, policy='prefer-both'):
+    if policy not in ['prefer-both','both-only']:
+        raise ValueError('Unsupported summary policy')
     raw = pd.read_csv(path, low_memory=False)
     missing = sorted(set(REQUIRED) - set(raw))
     if missing:
@@ -40,6 +43,8 @@ def load_and_validate(path, policy='prefer-both'):
         if c != 'Year':
             x[c] = x[c].astype('string').str.strip().replace(SENTINELS, pd.NA)
     year = pd.to_numeric(x['Year'], errors='coerce')
+    if (year.dropna() % 1 != 0).any():
+        raise ValueError('Year must contain integer years, not fractional values.')
     audit['out_of_scope_or_invalid_year_rows'] = int((~year.between(2005, 2024)).sum())
     x = x[year.between(2005, 2024)].copy()
     x['Year'] = year.loc[x.index].astype(int)
@@ -104,12 +109,13 @@ def load_and_validate(path, policy='prefer-both'):
     details = x[x.Outbreak_id.isna() & x.Species.notna()]
     orphan = details[KEY].drop_duplicates().merge(pd.concat([both[KEY],fallback[KEY]]).drop_duplicates().assign(found=True), on=KEY, how='left')
     audit.update({'selected_summary_groups':len(summaries), 'category_fallback_groups':len(fallback),
-                  'both_only_known_outbreaks':float(both['count'].sum()),
-                  'category_fallback_known_outbreaks':float(fallback['count'].sum()),
+                  'both_only_known_outbreaks':float(both['count'].sum(min_count=1)),
+                  'category_fallback_known_outbreaks':float(fallback['count'].sum(min_count=1)),
                   'selected_unknown_groups':int(summaries['count'].isna().sum()),
                   'detail_groups_without_summary':int(orphan.found.isna().sum()),
-                  'selected_known_outbreaks':float(summaries['count'].sum()),
+                  'selected_known_outbreaks':float(summaries['count'].sum(min_count=1)),
                   'diseases':int(summaries.Disease.nunique()), 'countries':int(summaries.Country.nunique()),
+                  'observed_semesters_2024':sorted(summaries.loc[summaries.Year.eq(2024)&summaries['count'].notna(),'half'].unique().tolist()),
                   'regions':sorted(summaries['World region'].unique().tolist())})
     return summaries, audit, conflicts, orphan[orphan.found.isna()].drop(columns='found')
 
@@ -128,15 +134,15 @@ def build_tables(s):
     t['semester'] = t['semester'].set_index(['Year','half']).reindex(grid).reset_index()
     t['annual']['yoy_pct'] = t['annual'].outbreaks.pct_change(fill_method=None) * 100
     # Disease-specific countries with observed numeric summaries, not all-country disease-zero imputation.
-    panel = s[s['count'].notna()].groupby(['Disease','Country','Year'], observed=True)['count'].sum().reset_index()
+    panel = s[s['count'].notna()].groupby(['Disease','Country','Year'], observed=True)['count'].sum(min_count=1).reset_index()
     years = set(range(2005,2010)) | set(range(2020,2025))
     rows=[]
     for disease,g in panel.groupby('Disease', observed=True):
-        early=g[g.Year.between(2005,2009)]['count'].sum();late=g[g.Year.between(2020,2024)]['count'].sum()
+        early=g[g.Year.between(2005,2009)]['count'].sum(min_count=1);late=g[g.Year.between(2020,2024)]['count'].sum(min_count=1)
         observed = g[g.Year.isin(years)].groupby('Country').Year.nunique()
         fixed=set(observed[observed.eq(10)].index)
         f=g[g.Country.isin(fixed)]
-        e=f[f.Year.between(2005,2009)]['count'].sum();l=f[f.Year.between(2020,2024)]['count'].sum()
+        e=f[f.Year.between(2005,2009)]['count'].sum(min_count=1);l=f[f.Year.between(2020,2024)]['count'].sum(min_count=1)
         rows.append({'Disease':disease,'early_2005_09':early,'late_2020_24':late,
                      'change_pct':(late/early-1)*100 if early>0 else np.nan,
                      'fixed_countries':len(fixed),'fixed_early':e,'fixed_late':l,
@@ -186,13 +192,16 @@ def short(d):
 def chart(fig, name, output):
     fig.tight_layout(rect=(0,.045,1,.97) if name=='12_priority_disease_regions' else (0,0,1,1))
     for extension in ['png','svg']:
-        fig.savefig(output/'charts'/f'{name}.{extension}',dpi=300,bbox_inches='tight',facecolor='white')
+        path=output/'charts'/f'{name}.{extension}'
+        fig.savefig(path,dpi=300,bbox_inches='tight',facecolor='white',metadata={'Date':None} if extension=='svg' else None)
+        if extension=='svg':
+            path.write_text('\n'.join(line.rstrip() for line in path.read_text().splitlines())+'\n')
     plt.close(fig)
 
 
 def make_charts(s,t,out):
     sns.set_theme(style='whitegrid',palette='colorblind',font_scale=0.95)
-    plt.rcParams.update({'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none'})
+    plt.rcParams.update({'axes.spines.top':False,'axes.spines.right':False,'svg.fonttype':'none','svg.hashsalt':'wahis-datathon'})
     region_colors=dict(zip(sorted(s['World region'].unique()),sns.color_palette('colorblind',s['World region'].nunique())))
     a=t['annual']; top=t['disease'].nlargest(10,'outbreaks').Disease.tolist()
     fig,ax=plt.subplots(3,1,figsize=(11,9),sharex=True)
@@ -303,11 +312,14 @@ def interpretations(t,audit):
     asf=changes.loc[changes.Disease.eq('African swine fever virus (Inf. with)')]
     if len(asf):
         v=asf.iloc[0]
-        findings.append(f'ASF known totals increase from {v.early_2005_09:,.0f} in 2005–09 to {v.late_2020_24:,.0f} in 2020–24 ({v.change_pct:+,.1f}%). Only {int(v.fixed_countries)} country has numeric summaries in every comparison year: changing participation prevents a broad fixed-country trend claim.')
-    se=t['semester'];last=se[se.Year.eq(2024)]
+        if pd.isna(v.early_2005_09) or pd.isna(v.late_2020_24):
+            findings.append('ASF has an unobserved early or late comparison window under this summary policy; no growth percentage is computed.')
+        else:
+            findings.append(f'ASF known totals increase from {v.early_2005_09:,.0f} in 2005–09 to {v.late_2020_24:,.0f} in 2020–24 ({v.change_pct:+,.1f}%). Only {int(v.fixed_countries)} country has numeric summaries in every comparison year: changing participation prevents a broad fixed-country trend claim.')
+    se=t['semester'];last=se[se.Year.eq(2024)&se.outbreaks.notna()]
     notes={
       '01_annual_trend_coverage':('How do reported counts and coverage change annually?', 'Sum known selected New outbreaks by Year; percentage change uses consecutive observed years without filling missing counts.', f'{int(peak.Year)} peaks at {peak.outbreaks:,.0f}; {driver.Country} / {short(driver.Disease)} contributes {driver.outbreaks/peak.outbreaks:.1%} of that total.', 'Use the peak and coverage changes to choose periods for disease-specific review.', 'Unknown groups contribute no numeric count; counts may be partial. Country numbers do not measure complete reporting or livestock exposure.'),
-      '02_semester_trend':('When do six-month reported counts peak?', 'Sum by explicit reporting semester; add a trailing mean of four observed semesters.',f'2024 contains {len(last)} semester labels; country coverage is '+', '.join(f'half {int(v.half)}: {int(v.countries_with_known_counts)}' for _,v in last.iterrows())+'.','Half-year variation can guide finer data requests.','These are reporting-period counts; precise onset/report dates and monthly seasonality are unavailable. A trailing mean is descriptive.'),
+      '02_semester_trend':('When do six-month reported counts peak?', 'Sum by explicit reporting semester; add a trailing mean of four observed semesters.',f'2024 contains {len(last)} semesters with eligible known counts; country coverage is '+', '.join(f'half {int(v.half)}: {int(v.countries_with_known_counts)}' for _,v in last.iterrows())+'.' if len(last) else '2024 has no eligible numeric summary counts under this policy; reporting coverage is unknown.','Half-year variation can guide finer data requests.','These are reporting-period counts; precise onset/report dates and monthly seasonality are unavailable. A trailing mean is descriptive.'),
       '03_top_disease_trends':('Are high-count diseases stable or dominated by spikes?', 'Use unmerged top ten source labels and separate annual y-axis scales; missing years remain gaps.', f'The top ten labels account for {d.head(10).outbreaks.sum()/total:.1%} of known counts. See exported series for exact peaks.', 'Separate scales reveal shapes obscured by the global total.', 'Disease definitions change over time; no merged HPAI or tuberculosis continuity is assumed. Counts across disease definitions may not represent unique biological events.'),
       '04_disease_region_ranking':('Which diseases and regions contribute most known counts?', 'Sum known counts after verified duplication removal, subtype-preserving selection and category priority.',f'{short(d.iloc[0].Disease)} and {r.iloc[0]["World region"]} lead their rankings.','Prioritise these contributors for source verification and targeted analysis.','Reported counts reflect reporting and heterogeneous outbreak definitions, not underlying risk; bee animal units must not be confused with outbreak counts.'),
       '05_region_trends':('Do regions show different temporal patterns?', 'Annual regional sums with missing region-years left as gaps.',f'The largest cumulative regional share is {r.iloc[0]["World region"]} ({r.iloc[0].outbreaks/total:.1%}).','Review regional peaks separately rather than infer a single global trajectory.','Country participation and administrative coverage vary; regional totals lack population denominators.'),
@@ -336,7 +348,8 @@ def interpretations(t,audit):
 def run(input_path=None, output=None, policy='prefer-both'):
     out=Path(output or ROOT/'eda/output');(out/'charts').mkdir(parents=True,exist_ok=True);(out/'tables').mkdir(exist_ok=True)
     preferred=ROOT/'data/cleaned_summary.csv'
-    path=Path(input_path) if input_path else (preferred if preferred.exists() else ROOT/'WAHIS_data.csv')
+    path=(Path(input_path) if input_path else (preferred if preferred.exists() else ROOT/'WAHIS_data.csv')).resolve()
+    report_path=ROOT/'eda/report.md' if out.resolve()==(ROOT/'eda/output').resolve() else out/'report.md'
     s,audit,conflicts,orphans=load_and_validate(path,policy)
     if not len(s) or not s['count'].notna().any():
         raise ValueError('No known eligible summary counts: supply a cleaned export with observed counts.')
@@ -357,13 +370,13 @@ def run(input_path=None, output=None, policy='prefer-both'):
       'Only blank-Species, blank/dash-Outbreak_id rows qualify. Prefer Both animal categories per subtype group; otherwise sum the existing Domestic/Wild summaries, without inventing an absent category. If any present category count is unknown, its group count stays unknown. A numeric fallback is therefore a known reported count, not evidence both categories were surveyed. Both-only sensitivity is reported above.',
       f'Verified copies removed: {audit["verified_duplicate_rows_removed"]:,}; same-key/same-count summaries removed: {audit["same_key_same_count_rows_removed"]:,}; conflicting summary keys: {audit["conflicting_summary_keys_excluded"]:,}, quarantined with their subtype groups. Missing selected counts: {audit["selected_unknown_groups"]:,}. Detail groups without any summary: {audit["detail_groups_without_summary"]:,}; excluded without zero inference.',
       'Middle East member countries are assigned to Middle East for disjoint analysis. Exact copies are removed after reassignment; unmatched records are retained except ambiguous summary keys, which are excluded and exported for adjudication. This changes geographic categorisation, not original files.',
-      'No disease relabelling is applied. Year is restricted to 2005–2024 despite later years in the raw input. Dates represent reporting semesters, not validated outbreak onset dates. Both 2024 halves are observed, but submission completeness/cutoff cannot be established from this file. All sums are known reported contributions and can be partial.',
+      'No disease relabelling is applied. Year is restricted to 2005–2024 despite later years in the raw input. Dates represent reporting semesters, not validated outbreak onset dates. Observed 2024 semester coverage is listed above; submission completeness/cutoff cannot be established from this file. All sums are known reported contributions and can be partial.',
       'Missing disease–time/geography combinations remain unknown in analytical tables and heatmaps. No country-disease absence is inferred from reporting another disease. Counts per observed reporting country are a sensitivity proxy, not an incidence rate or complete adjustment for surveillance.',
       'The existing script.ipynb creates synthetic zero summaries in its first cleaning cell but ignores them in its later analysis, which also fills absent disease periods with zero. Its stated model results are not adopted or revalidated here. Teammate files are unchanged.','',
       '## Chart questions and interpretation','']
     for name,fields in notes.items():
         if not (out/'charts'/f'{name}.png').exists():continue
-        lines += [f'### {name}','',f'![{name}](output/charts/{name}.png)','']
+        lines += [f'### {name}','',f'![{name}]({os.path.relpath(out / "charts" / (name + ".png"), report_path.parent)})','']
         for label,value in zip(['Research question','Method','Observation','Interpretation','Limitations'],fields):lines.append(f'**{label}:** {value}\n')
     lines += ['## Integration with Parts 1 and 2','',
       'There is no saved cleaned WAHIS summary dataset. Export `data/cleaned_summary.csv` with the original required columns listed in `analysis.py`, including subtype and category, and `is_synthetic_summary` where applicable. Keep missing New outbreaks missing; do not infer zeros. Use --input for another path. The EDA validates, reselects and audits this input without modifying it. A Both-only export cannot reconstruct category summaries already discarded; its scope will differ from the raw prefer-both fallback. Confirm the final summary policy and subtype additivity with teammates before adopting presentation totals.','',
@@ -371,7 +384,7 @@ def run(input_path=None, output=None, policy='prefer-both'):
       'The existing monthly climate file is usable for six-month country-level joins only when all six months and variables are present. Shared ISO3 mappings (historical territories or subdivisions) need adjudication; do not combine WAHIS counts blindly by ISO3. Other climate CSVs were inspected but not mixed into this join. No association is claimed from match coverage.',
       'Next: resolve ambiguous summary counts and obtain the WOAH dictionary; validate top country reports and renamed disease definitions; estimate disease-region negative-binomial trends with disease-specific reporting and exposure denominators, residual checks and multiplicity control; assess half-year effects by hemisphere; obtain onset dates for monthly seasonality. For climate, use country/half-year fixed effects, temperature and rainfall anomalies, contiguous semester lags and country-clustered inference, then time-ordered holdout validation with baselines/thresholds fitted on training data only. Assess associations separately from causal or predictive claims.','',
       'Challenge 6 relevance: annual/disease/regional series describe reported trends; coverage and selection sensitivity distinguish measurement changes from plausible epidemiological signals; the trailing historical baseline provides an interpretable review list. These are retrospective exploratory outputs, not operational early-warning thresholds.']
-    (ROOT/'eda/report.md').write_text('\n'.join(lines))
+    report_path.write_text('\n'.join(lines))
     (out/'interpretations.json').write_text(json.dumps({'findings':findings,'charts':notes},indent=2))
     print(json.dumps({k:v for k,v in audit.items() if k not in ['climate','countries_reassigned_to_middle_east']},indent=2))
     return s,t,audit,findings,notes

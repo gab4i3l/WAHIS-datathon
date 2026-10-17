@@ -1,0 +1,11 @@
+{
+  "test_start": 2019,
+  "test_end": 2024,
+  "minimum_training_semesters": 20,
+  "available_complete_test_targets": 3563,
+  "scored_common_targets": 2384,
+  "scored_series": 253,
+  "protocol": "Expanding window; one semester ahead; same eligible targets for all models.",
+  "outcome": "Known reported new outbreaks / countries with numeric disease summaries.",
+  "limitations": "Reporting-period availability is assumed; publication timestamps and stable surveillance denominators are unavailable. Performance is conditional on observed records, not operational early-warning validity."
+}

@@ -1,0 +1,2 @@
+# Main audited pipeline and notebook execution.
+-r eda/requirements.txt

@@ -1,0 +1,760 @@
+Disease,World region,model,n_predictions,mae_counts_per_country,rmse_log1p
+Acarapis woodi (Inf. of honey bees with),Americas,log_linear_trend,4,6.1648466872546805,0.775170700557115
+Acarapis woodi (Inf. of honey bees with),Americas,seasonal_median_5y,4,7.125,0.6484246605600364
+Acarapis woodi (Inf. of honey bees with),Americas,seasonal_persistence,4,9.25,0.6299066870827119
+Acarapis woodi (Inf. of honey bees with),Asia,log_linear_trend,10,13.942211438380975,0.48095833511398445
+Acarapis woodi (Inf. of honey bees with),Asia,seasonal_median_5y,10,13.7,0.5089659332658587
+Acarapis woodi (Inf. of honey bees with),Asia,seasonal_persistence,10,6.9,0.247595562968881
+Acarapis woodi (Inf. of honey bees with),Europe,log_linear_trend,6,2.5400286634702955,0.6657512606691157
+Acarapis woodi (Inf. of honey bees with),Europe,seasonal_median_5y,6,2.25,0.630996637395544
+Acarapis woodi (Inf. of honey bees with),Europe,seasonal_persistence,6,2.5,0.5519544357610828
+Acarapis woodi (Inf. of honey bees with),Middle East,log_linear_trend,3,48.80218500986175,2.696283428824992
+Acarapis woodi (Inf. of honey bees with),Middle East,seasonal_median_5y,3,143.0,3.727116326994188
+Acarapis woodi (Inf. of honey bees with),Middle East,seasonal_persistence,3,35.333333333333336,2.4110716157680305
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Americas,log_linear_trend,12,29.472893981497663,1.3906766712643184
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Americas,seasonal_median_5y,12,10.482936507936508,0.8564317547386724
+Aethina tumida (Inf. with)(Small hive beetle)(2006-),Americas,seasonal_persistence,12,11.490873015873015,0.9458257497036461
+African horse sickness virus (Inf. with),Africa,log_linear_trend,12,16.626746564733192,0.609939817333834
+African horse sickness virus (Inf. with),Africa,seasonal_median_5y,12,8.480555555555556,0.3504730571030469
+African horse sickness virus (Inf. with),Africa,seasonal_persistence,12,13.462962962962962,0.570884314460233
+African swine fever virus (Inf. with),Africa,log_linear_trend,12,6.35599374972814,0.5302589227826049
+African swine fever virus (Inf. with),Africa,seasonal_median_5y,12,7.218447466705979,0.6309432741284355
+African swine fever virus (Inf. with),Africa,seasonal_persistence,12,7.065272863531377,0.5431987243906061
+African swine fever virus (Inf. with),Europe,log_linear_trend,12,193.40321992542522,0.6431003059880644
+African swine fever virus (Inf. with),Europe,seasonal_median_5y,12,97.49135145899851,0.39695802121813584
+African swine fever virus (Inf. with),Europe,seasonal_persistence,12,84.54238200524965,0.3692601102322685
+Anthrax,Africa,log_linear_trend,12,3.126765140377396,0.393055314228882
+Anthrax,Africa,seasonal_median_5y,12,3.1354503497305366,0.3630725709166836
+Anthrax,Africa,seasonal_persistence,12,4.344984141317346,0.5200404560095876
+Anthrax,Americas,log_linear_trend,12,2.051646391275754,0.5449408243359614
+Anthrax,Americas,seasonal_median_5y,12,1.74837962962963,0.43704969027946455
+Anthrax,Americas,seasonal_persistence,12,2.7890873015873017,0.6089853239350412
+Anthrax,Asia,log_linear_trend,12,1.4456929500663724,0.3287406851147425
+Anthrax,Asia,seasonal_median_5y,12,2.1354377104377105,0.39959049461918467
+Anthrax,Asia,seasonal_persistence,12,1.6327050264550265,0.3296759150320773
+Anthrax,Europe,log_linear_trend,12,1.0732382267609226,0.4025771256726761
+Anthrax,Europe,seasonal_median_5y,12,1.3535714285714286,0.5184274230923849
+Anthrax,Europe,seasonal_persistence,12,1.736111111111111,0.5970063426480228
+Anthrax,Middle East,log_linear_trend,12,15.976166237531297,0.5160993718312373
+Anthrax,Middle East,seasonal_median_5y,12,16.941666666666666,0.57018630610675
+Anthrax,Middle East,seasonal_persistence,12,14.805555555555555,0.5425610541824987
+Anthrax,Oceania,log_linear_trend,1,0.8785951588667715,0.36415520251851075
+Anthrax,Oceania,seasonal_median_5y,1,3.0,0.916290731874155
+Anthrax,Oceania,seasonal_persistence,1,1.0,0.4054651081081645
+Aphanomyces astaci (Inf. with)(Crayfish plague),Europe,log_linear_trend,4,0.4403949428241048,0.2514100880241629
+Aphanomyces astaci (Inf. with)(Crayfish plague),Europe,seasonal_median_5y,4,0.375,0.19324798412878216
+Aphanomyces astaci (Inf. with)(Crayfish plague),Europe,seasonal_persistence,4,0.25,0.20273255405408225
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Africa,log_linear_trend,2,6.56973868864608,1.447539312821588
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Africa,seasonal_median_5y,2,6.5,1.4421694507258087
+Aphanomyces invadans (Inf. with) (Epizootic ulcerative syndrome),Africa,seasonal_persistence,2,5.0,1.2391011677620267
+Aujeszky's disease virus (Inf. with),Americas,log_linear_trend,12,3.340526384536617,0.8395132250421877
+Aujeszky's disease virus (Inf. with),Americas,seasonal_median_5y,12,3.1249999999999996,0.6691879514140624
+Aujeszky's disease virus (Inf. with),Americas,seasonal_persistence,12,3.875,0.7525469195664295
+Aujeszky's disease virus (Inf. with),Asia,log_linear_trend,12,26.176070758301066,0.5224356849224214
+Aujeszky's disease virus (Inf. with),Asia,seasonal_median_5y,12,34.68055555555556,0.6138868340329297
+Aujeszky's disease virus (Inf. with),Asia,seasonal_persistence,12,34.81944444444445,0.7030483496173303
+Aujeszky's disease virus (Inf. with),Europe,log_linear_trend,12,140.23755947325756,1.0055598413649631
+Aujeszky's disease virus (Inf. with),Europe,seasonal_median_5y,12,136.97430555555556,1.1712829571881904
+Aujeszky's disease virus (Inf. with),Europe,seasonal_persistence,12,114.9603835978836,1.070908431768506
+Avian chlamydiosis,Asia,log_linear_trend,12,2.813703161494695,0.5848114478584494
+Avian chlamydiosis,Asia,seasonal_median_5y,12,3.125,0.6619108490667518
+Avian chlamydiosis,Asia,seasonal_persistence,12,2.9166666666666665,0.5606743464029497
+Avian chlamydiosis,Europe,log_linear_trend,12,2.4866119687701675,0.39934058261976046
+Avian chlamydiosis,Europe,seasonal_median_5y,12,2.7713955026455026,0.3959491219309465
+Avian chlamydiosis,Europe,seasonal_persistence,12,3.248015873015873,0.5110110281279322
+Avian infectious bronchitis,Africa,log_linear_trend,12,11.770291928926552,1.1147051443020564
+Avian infectious bronchitis,Africa,seasonal_median_5y,12,3.4916666666666667,0.5761332907479211
+Avian infectious bronchitis,Africa,seasonal_persistence,12,9.386111111111113,1.0093857270912714
+Avian infectious bronchitis,Americas,log_linear_trend,12,137.61565959420525,1.0710826519817487
+Avian infectious bronchitis,Americas,seasonal_median_5y,12,87.9765873015873,0.9057664134040562
+Avian infectious bronchitis,Americas,seasonal_persistence,12,93.88531746031747,1.1281144817447506
+Avian infectious bronchitis,Asia,log_linear_trend,12,52.093222064174576,0.47931366716507245
+Avian infectious bronchitis,Asia,seasonal_median_5y,12,69.8463955026455,0.6611750805944143
+Avian infectious bronchitis,Asia,seasonal_persistence,12,31.66071428571429,0.3403712214812187
+Avian infectious bronchitis,Europe,log_linear_trend,12,6.383002761976356,0.9320606287831593
+Avian infectious bronchitis,Europe,seasonal_median_5y,12,5.780555555555555,0.8451371980636342
+Avian infectious bronchitis,Europe,seasonal_persistence,12,9.269444444444444,1.275247742346639
+Avian infectious bronchitis,Middle East,log_linear_trend,12,112.7922502965577,1.5921503131526171
+Avian infectious bronchitis,Middle East,seasonal_median_5y,12,106.7013888888889,1.5461848750262368
+Avian infectious bronchitis,Middle East,seasonal_persistence,12,100.34027777777779,1.8190106843456884
+Avian infectious laryngotracheitis,Americas,log_linear_trend,12,26.9328969830884,0.5654374124269937
+Avian infectious laryngotracheitis,Americas,seasonal_median_5y,12,10.545833333333333,0.28473724818727353
+Avian infectious laryngotracheitis,Americas,seasonal_persistence,12,17.829365079365083,0.4623602682180092
+Avian infectious laryngotracheitis,Asia,log_linear_trend,12,56.49416602105271,0.5436957540331955
+Avian infectious laryngotracheitis,Asia,seasonal_median_5y,12,74.85416666666667,0.7107667751559928
+Avian infectious laryngotracheitis,Asia,seasonal_persistence,12,39.05555555555555,0.3549809533784286
+Avian infectious laryngotracheitis,Europe,log_linear_trend,12,1.653960426807185,0.3425858765566326
+Avian infectious laryngotracheitis,Europe,seasonal_median_5y,12,1.3575396825396824,0.30648342947769064
+Avian infectious laryngotracheitis,Europe,seasonal_persistence,12,1.642857142857143,0.29389114522385645
+Bluetongue virus (Inf. with),Africa,log_linear_trend,12,17.860310281139256,0.7987626893092278
+Bluetongue virus (Inf. with),Africa,seasonal_median_5y,12,17.891666666666662,0.8185347796837313
+Bluetongue virus (Inf. with),Africa,seasonal_persistence,12,18.582142857142856,0.7609110702796692
+Bluetongue virus (Inf. with),Americas,log_linear_trend,11,4.152272344557552,0.795633893331322
+Bluetongue virus (Inf. with),Americas,seasonal_median_5y,11,3.3712121212121207,0.7082796396988497
+Bluetongue virus (Inf. with),Americas,seasonal_persistence,11,11.568181818181817,1.3510519478056255
+Bluetongue virus (Inf. with),Asia,log_linear_trend,12,19.595348483523505,1.2140053050141755
+Bluetongue virus (Inf. with),Asia,seasonal_median_5y,12,20.09027777777778,0.9668743792687907
+Bluetongue virus (Inf. with),Asia,seasonal_persistence,12,30.138888888888896,1.445372651884017
+Bluetongue virus (Inf. with),Europe,log_linear_trend,12,243.179415740594,1.1801687809918355
+Bluetongue virus (Inf. with),Europe,seasonal_median_5y,12,268.0393562030075,1.390495149279638
+Bluetongue virus (Inf. with),Europe,seasonal_persistence,12,295.7034931077694,1.468309145804999
+Bluetongue virus (Inf. with),Middle East,log_linear_trend,7,24.354059679059553,1.1022796574109721
+Bluetongue virus (Inf. with),Middle East,seasonal_median_5y,7,25.833333333333336,1.2092856972771524
+Bluetongue virus (Inf. with),Middle East,seasonal_persistence,7,28.0952380952381,1.5401227548492218
+Bonamia ostreae (Inf. with),Europe,log_linear_trend,2,0.5684145514082596,0.24633254208560004
+Bonamia ostreae (Inf. with),Europe,seasonal_median_5y,2,1.0,0.4054651081081645
+Bonamia ostreae (Inf. with),Europe,seasonal_persistence,2,4.0,0.8983185591563898
+Bovine anaplasmosis,Africa,log_linear_trend,7,47.603596987415166,1.0122843012480893
+Bovine anaplasmosis,Africa,seasonal_median_5y,7,52.82108843537416,0.8753712556018006
+Bovine anaplasmosis,Africa,seasonal_persistence,7,53.13481756338899,1.0826178207795618
+Bovine anaplasmosis,Americas,log_linear_trend,12,11.21188228545526,0.40894974875857615
+Bovine anaplasmosis,Americas,seasonal_median_5y,12,9.665551346801346,0.3107934140193262
+Bovine anaplasmosis,Americas,seasonal_persistence,12,9.767445286195288,0.31243449941754253
+Bovine anaplasmosis,Asia,log_linear_trend,10,35.507079412937,1.1840542896936403
+Bovine anaplasmosis,Asia,seasonal_median_5y,10,40.39404761904761,1.3530245406196904
+Bovine anaplasmosis,Asia,seasonal_persistence,10,54.2,1.6627088382968653
+Bovine anaplasmosis,Europe,log_linear_trend,4,20.986011247966893,1.3448526834355254
+Bovine anaplasmosis,Europe,seasonal_median_5y,4,23.75,1.1999862782923578
+Bovine anaplasmosis,Europe,seasonal_persistence,4,28.083333333333336,1.8603421306216252
+Bovine anaplasmosis,Middle East,log_linear_trend,12,11.596311485114583,0.8434665618223919
+Bovine anaplasmosis,Middle East,seasonal_median_5y,12,12.955555555555556,0.8304273053096279
+Bovine anaplasmosis,Middle East,seasonal_persistence,12,9.786111111111111,0.5621233620309986
+Bovine babesiosis,Africa,log_linear_trend,12,23.16814673609053,0.8725582624917764
+Bovine babesiosis,Africa,seasonal_median_5y,12,29.01762566137566,0.8983753282472894
+Bovine babesiosis,Africa,seasonal_persistence,12,24.82314814814815,0.9736658563330742
+Bovine babesiosis,Americas,log_linear_trend,12,11.271761538274111,0.5643974663767151
+Bovine babesiosis,Americas,seasonal_median_5y,12,10.922709235209235,0.48173355704704673
+Bovine babesiosis,Americas,seasonal_persistence,12,11.688419913419914,0.47684555189351036
+Bovine babesiosis,Asia,log_linear_trend,2,50.017567899908336,1.109685691183815
+Bovine babesiosis,Asia,seasonal_median_5y,2,49.920833333333334,1.1580557766753166
+Bovine babesiosis,Asia,seasonal_persistence,2,53.7375,1.4195718487517988
+Bovine babesiosis,Europe,log_linear_trend,8,3.449677980645103,0.7688876129237135
+Bovine babesiosis,Europe,seasonal_median_5y,8,3.364583333333334,0.7148319309561889
+Bovine babesiosis,Europe,seasonal_persistence,8,5.760416666666666,1.0649636393865458
+Bovine babesiosis,Middle East,log_linear_trend,12,18.69590851225662,0.6060322153260311
+Bovine babesiosis,Middle East,seasonal_median_5y,12,24.011706349206346,0.7765388913543984
+Bovine babesiosis,Middle East,seasonal_persistence,12,17.695039682539683,0.5733149225826304
+Bovine genital campylobacteriosis,Africa,log_linear_trend,1,14.370994231532887,1.7561895283770654
+Bovine genital campylobacteriosis,Africa,seasonal_median_5y,1,7.5,1.2527629684953678
+Bovine genital campylobacteriosis,Africa,seasonal_persistence,1,6.0,1.0986122886681098
+Bovine genital campylobacteriosis,Americas,log_linear_trend,1,7.183310945907069,1.0585119657822302
+Bovine genital campylobacteriosis,Americas,seasonal_median_5y,1,7.5,1.1451323043030026
+Bovine genital campylobacteriosis,Americas,seasonal_persistence,1,3.0,0.3184537311185349
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Americas,log_linear_trend,12,18.84946647756164,0.45109508380752306
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Americas,seasonal_median_5y,12,13.571554834054835,0.41149430116687696
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Americas,seasonal_persistence,12,15.512301587301586,0.43007761571708725
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Asia,log_linear_trend,9,69.43309581333689,0.631953998536457
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Asia,seasonal_median_5y,9,83.2462962962963,0.8543194830358226
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Asia,seasonal_persistence,9,62.32486772486772,0.6939986392143378
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Europe,log_linear_trend,12,7.267828478605978,0.47367071552558154
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Europe,seasonal_median_5y,12,13.334124902874903,0.5770046484640448
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Europe,seasonal_persistence,12,9.205738936988938,0.4557749257724778
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Middle East,log_linear_trend,10,4.493628976152827,0.7632946927485738
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Middle East,seasonal_median_5y,10,4.633333333333333,0.8090766860860981
+Bovine pestiviruses (Inf. with) (Bovine viral diarrhoea),Middle East,seasonal_persistence,10,6.5666666666666655,0.9198593419433976
+Bovine spongiform encephalopathy,Europe,log_linear_trend,3,1.130024487959434,0.672804253317705
+Bovine spongiform encephalopathy,Europe,seasonal_median_5y,3,0.3333333333333333,0.14759798666045124
+Bovine spongiform encephalopathy,Europe,seasonal_persistence,3,0.5555555555555557,0.23363115480642774
+Brucella abortus (Inf. with),Africa,log_linear_trend,12,10.517179797866378,0.3526879449666103
+Brucella abortus (Inf. with),Africa,seasonal_median_5y,12,14.17095963676846,0.42805950181923563
+Brucella abortus (Inf. with),Africa,seasonal_persistence,12,13.640398027898028,0.4600133478740349
+Brucella abortus (Inf. with),Americas,log_linear_trend,12,105.68845363381138,0.5806332739672129
+Brucella abortus (Inf. with),Americas,seasonal_median_5y,12,90.51416353934736,0.47381473805388097
+Brucella abortus (Inf. with),Americas,seasonal_persistence,12,77.0003663003663,0.3312814865651761
+Brucella abortus (Inf. with),Asia,log_linear_trend,12,59.39075034408396,0.7069484633541988
+Brucella abortus (Inf. with),Asia,seasonal_median_5y,12,61.27779558404558,0.8410210743693022
+Brucella abortus (Inf. with),Asia,seasonal_persistence,12,94.49826793576794,1.0997067275651138
+Brucella abortus (Inf. with),Europe,log_linear_trend,7,29.439728009683783,0.5257686465755235
+Brucella abortus (Inf. with),Europe,seasonal_median_5y,7,23.680725623582767,0.3939208250747977
+Brucella abortus (Inf. with),Europe,seasonal_persistence,7,40.20884353741496,0.5796979566623893
+Brucella abortus (Inf. with),Middle East,log_linear_trend,12,59.85132052735883,0.7611585560365387
+Brucella abortus (Inf. with),Middle East,seasonal_median_5y,12,48.84414682539682,0.6984591269264789
+Brucella abortus (Inf. with),Middle East,seasonal_persistence,12,40.02331349206349,0.45426821527825045
+Brucella melitensis (Inf. with),Africa,log_linear_trend,12,35.25637244558302,1.1260424736404748
+Brucella melitensis (Inf. with),Africa,seasonal_median_5y,12,35.16527777777778,0.8863478697854484
+Brucella melitensis (Inf. with),Africa,seasonal_persistence,12,25.59166666666667,0.6631816091001927
+Brucella melitensis (Inf. with),Americas,log_linear_trend,12,96.38875865021724,1.2988474576739402
+Brucella melitensis (Inf. with),Americas,seasonal_median_5y,12,56.68055555555555,0.9159973418852816
+Brucella melitensis (Inf. with),Americas,seasonal_persistence,12,71.8611111111111,1.039288879322931
+Brucella melitensis (Inf. with),Asia,log_linear_trend,12,137.35049609195502,0.7281045811732082
+Brucella melitensis (Inf. with),Asia,seasonal_median_5y,12,122.82632275132273,0.8568380545145665
+Brucella melitensis (Inf. with),Asia,seasonal_persistence,12,119.91504629629632,0.7438707598288378
+Brucella melitensis (Inf. with),Europe,log_linear_trend,12,14.133766196154241,0.6907909194580428
+Brucella melitensis (Inf. with),Europe,seasonal_median_5y,12,23.56633597883598,0.7604198860582309
+Brucella melitensis (Inf. with),Europe,seasonal_persistence,12,28.142162698412694,0.9449359771525003
+Brucella melitensis (Inf. with),Middle East,log_linear_trend,12,7.616230500651807,0.25390708990421296
+Brucella melitensis (Inf. with),Middle East,seasonal_median_5y,12,7.386347911347912,0.2535057200050148
+Brucella melitensis (Inf. with),Middle East,seasonal_persistence,12,11.35418747918748,0.3603372317983804
+Brucella suis (Inf. with),Americas,log_linear_trend,5,0.6078332579146143,0.24135336843699856
+Brucella suis (Inf. with),Americas,seasonal_median_5y,5,0.7,0.2401117046048896
+Brucella suis (Inf. with),Americas,seasonal_persistence,5,1.2333333333333334,0.4114525274242194
+Brucella suis (Inf. with),Europe,log_linear_trend,12,38.05827874823535,1.313105599455379
+Brucella suis (Inf. with),Europe,seasonal_median_5y,12,36.05673701298701,1.3145123582619223
+Brucella suis (Inf. with),Europe,seasonal_persistence,12,56.228968253968254,2.059088709159154
+Burkholderia mallei (Inf. with) (Glanders),Americas,log_linear_trend,12,53.041589085470015,1.3988679857395632
+Burkholderia mallei (Inf. with) (Glanders),Americas,seasonal_median_5y,12,68.08333333333333,1.699197879779245
+Burkholderia mallei (Inf. with) (Glanders),Americas,seasonal_persistence,12,49.916666666666664,1.4313348747146573
+Burkholderia mallei (Inf. with) (Glanders),Asia,log_linear_trend,11,7.650449739614775,1.0141757748963465
+Burkholderia mallei (Inf. with) (Glanders),Asia,seasonal_median_5y,11,4.818181818181818,0.7644060046841761
+Burkholderia mallei (Inf. with) (Glanders),Asia,seasonal_persistence,11,5.090909090909091,0.8567361557866099
+Burkholderia mallei (Inf. with) (Glanders),Middle East,log_linear_trend,8,10.107961972055561,0.9762085627692316
+Burkholderia mallei (Inf. with) (Glanders),Middle East,seasonal_median_5y,8,7.833333333333333,0.8380565876443532
+Burkholderia mallei (Inf. with) (Glanders),Middle East,seasonal_persistence,8,14.416666666666666,1.3854540939795987
+Camelpox virus (inf. with),Africa,log_linear_trend,6,1.7773104264071289,0.4825222611176716
+Camelpox virus (inf. with),Africa,seasonal_median_5y,6,1.6666666666666667,0.47969978686153675
+Camelpox virus (inf. with),Africa,seasonal_persistence,6,2.0,0.66360571726038
+Camelpox virus (inf. with),Middle East,log_linear_trend,1,0.6745914433975777,0.10133552259859058
+Camelpox virus (inf. with),Middle East,seasonal_median_5y,1,2.0,0.33647223662121295
+Camelpox virus (inf. with),Middle East,seasonal_persistence,1,2.0,0.33647223662121295
+Caprine arthritis/encephalitis,Asia,log_linear_trend,12,26.641448544360752,0.7457312852571512
+Caprine arthritis/encephalitis,Asia,seasonal_median_5y,12,31.513888888888886,1.077119133336882
+Caprine arthritis/encephalitis,Asia,seasonal_persistence,12,18.416666666666668,0.6053126283878675
+Caprine arthritis/encephalitis,Europe,log_linear_trend,12,1.06048025096306,0.4325574175810028
+Caprine arthritis/encephalitis,Europe,seasonal_median_5y,12,1.1538690476190478,0.3814919577810852
+Caprine arthritis/encephalitis,Europe,seasonal_persistence,12,1.161111111111111,0.41234855183183083
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Africa,log_linear_trend,1,0.43775386976637476,0.19792988960553382
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Africa,seasonal_median_5y,1,1.0,0.4054651081081645
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Africa,seasonal_persistence,1,1.0,0.4054651081081645
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Asia,log_linear_trend,12,14.091581579140394,0.6899319945570764
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Asia,seasonal_median_5y,12,13.256944444444445,0.6482245192837114
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Asia,seasonal_persistence,12,15.666666666666666,0.7878490668518594
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Europe,log_linear_trend,12,3.063908797643945,0.3813220703777386
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Europe,seasonal_median_5y,12,2.210813492063492,0.30180404386090653
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Europe,seasonal_persistence,12,2.5047619047619047,0.4251856023574041
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Middle East,log_linear_trend,1,43.77878126092681,0.7775701597957791
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Middle East,seasonal_median_5y,1,46.0,0.8391010931830256
+"Chlamydia abortus (Inf. with) (Enzootic abortion of ewes, ovine chlamydiosis)",Middle East,seasonal_persistence,1,6.0,0.07145896398214457
+Chrysomya bezziana (Inf. with) (Old world screwworm),Africa,log_linear_trend,2,46.65576369775279,1.0833294298045266
+Chrysomya bezziana (Inf. with) (Old world screwworm),Africa,seasonal_median_5y,2,66.0,1.2653906372196093
+Chrysomya bezziana (Inf. with) (Old world screwworm),Africa,seasonal_persistence,2,67.75,1.3089588855198313
+Chrysomya bezziana (Inf. with) (Old world screwworm),Middle East,log_linear_trend,10,84.98373365809712,1.450860709061809
+Chrysomya bezziana (Inf. with) (Old world screwworm),Middle East,seasonal_median_5y,10,71.3,1.4053966980511396
+Chrysomya bezziana (Inf. with) (Old world screwworm),Middle East,seasonal_persistence,10,80.4,1.0851691562177317
+Classical swine fever virus (Inf. with),Americas,log_linear_trend,12,5.5226073133786,0.5033358699176999
+Classical swine fever virus (Inf. with),Americas,seasonal_median_5y,12,6.26984126984127,0.5276562711724491
+Classical swine fever virus (Inf. with),Americas,seasonal_persistence,12,6.88392857142857,0.6078734100250984
+Classical swine fever virus (Inf. with),Asia,log_linear_trend,12,47.10529473348782,1.444618615136589
+Classical swine fever virus (Inf. with),Asia,seasonal_median_5y,12,41.08978174603175,1.2457452259512378
+Classical swine fever virus (Inf. with),Asia,seasonal_persistence,12,48.787797619047616,1.0148588728674044
+Cochliomyia hominivorax (Inf. with) (New world screwworm),Americas,log_linear_trend,12,236.64402737221562,1.9932920483434715
+Cochliomyia hominivorax (Inf. with) (New world screwworm),Americas,seasonal_median_5y,12,231.67043650793653,1.746422124381566
+Cochliomyia hominivorax (Inf. with) (New world screwworm),Americas,seasonal_persistence,12,256.5551587301587,1.9894109951618328
+Contagious agalactia,Asia,log_linear_trend,6,16.315735544747064,1.0420833749590657
+Contagious agalactia,Asia,seasonal_median_5y,6,18.25,1.0698266186345813
+Contagious agalactia,Asia,seasonal_persistence,6,8.0,0.6924026403517398
+Contagious agalactia,Europe,log_linear_trend,12,7.205733682827044,0.6212621254131203
+Contagious agalactia,Europe,seasonal_median_5y,12,8.527777777777779,0.6800719115459506
+Contagious agalactia,Europe,seasonal_persistence,12,5.125,0.49918894312951306
+Contagious agalactia,Middle East,log_linear_trend,6,82.01700641875756,0.8422529754035758
+Contagious agalactia,Middle East,seasonal_median_5y,6,68.16666666666667,0.9544697612802904
+Contagious agalactia,Middle East,seasonal_persistence,6,59.166666666666664,0.7462633712846
+Contagious caprine pleuropneumonia,Africa,log_linear_trend,12,7.625484855892805,0.6803726342301643
+Contagious caprine pleuropneumonia,Africa,seasonal_median_5y,12,6.774007936507936,0.6271510218407961
+Contagious caprine pleuropneumonia,Africa,seasonal_persistence,12,5.650793650793652,0.42770786872400307
+Contagious caprine pleuropneumonia,Asia,log_linear_trend,12,96.63856284286703,0.7362391019421578
+Contagious caprine pleuropneumonia,Asia,seasonal_median_5y,12,31.881944444444443,0.35394837548616004
+Contagious caprine pleuropneumonia,Asia,seasonal_persistence,12,23.590277777777782,0.2739896357633762
+Contagious caprine pleuropneumonia,Middle East,log_linear_trend,12,40.481330409698614,0.8501402558201525
+Contagious caprine pleuropneumonia,Middle East,seasonal_median_5y,12,34.08194444444445,0.8243793567370133
+Contagious caprine pleuropneumonia,Middle East,seasonal_persistence,12,19.733333333333334,0.5983918614963283
+Coxiella burnetii (Inf. with) (Q fever),Asia,log_linear_trend,12,10.8993421199174,0.903065015201292
+Coxiella burnetii (Inf. with) (Q fever),Asia,seasonal_median_5y,12,9.859722222222222,0.8758851355826764
+Coxiella burnetii (Inf. with) (Q fever),Asia,seasonal_persistence,12,12.359722222222222,0.7530043624443137
+Coxiella burnetii (Inf. with) (Q fever),Europe,log_linear_trend,12,5.292690287131522,0.21876301902764198
+Coxiella burnetii (Inf. with) (Q fever),Europe,seasonal_median_5y,12,7.1038299663299656,0.2890085897772133
+Coxiella burnetii (Inf. with) (Q fever),Europe,seasonal_persistence,12,5.311574074074074,0.2493046331214416
+Duck virus hepatitis,Asia,log_linear_trend,12,33.64766730163421,0.7390280381663027
+Duck virus hepatitis,Asia,seasonal_median_5y,12,36.013888888888886,0.8109758892756164
+Duck virus hepatitis,Asia,seasonal_persistence,12,17.63888888888889,0.490781873973213
+Eastern equine encephalitis virus (Inf. with) (Eastern equine encephalomyelitis) (2006-),Americas,log_linear_trend,12,2.91413494971902,0.5321418474494116
+Eastern equine encephalitis virus (Inf. with) (Eastern equine encephalomyelitis) (2006-),Americas,seasonal_median_5y,12,2.298611111111111,0.40609679192605813
+Eastern equine encephalitis virus (Inf. with) (Eastern equine encephalomyelitis) (2006-),Americas,seasonal_persistence,12,3.0624999999999996,0.6373821588479097
+Echinococcus granulosus (Inf. with) (2014-),Asia,log_linear_trend,2,28.48436852814416,0.8763032637895853
+Echinococcus granulosus (Inf. with) (2014-),Asia,seasonal_median_5y,2,35.70833333333333,1.202007635588873
+Echinococcus granulosus (Inf. with) (2014-),Asia,seasonal_persistence,2,1.8333333333333321,0.04617767793018638
+Echinococcus granulosus (Inf. with) (2014-),Europe,log_linear_trend,1,33.37588251542407,1.073476236330102
+Echinococcus granulosus (Inf. with) (2014-),Europe,seasonal_median_5y,1,18.416666666666668,0.7239188392266991
+Echinococcus granulosus (Inf. with) (2014-),Europe,seasonal_persistence,1,5.833333333333332,0.41028439454411325
+Echinococcus granulosus (Inf. with) (2014-),Middle East,log_linear_trend,2,0.8694850895855553,0.4390177063229609
+Echinococcus granulosus (Inf. with) (2014-),Middle East,seasonal_median_5y,2,1.25,0.4286027370245272
+Echinococcus granulosus (Inf. with) (2014-),Middle East,seasonal_persistence,2,0.5,0.28670712747781973
+Echinococcus multilocularis (Inf. with) (2014-),Europe,log_linear_trend,2,5.3197788792919045,0.4703652098726646
+Echinococcus multilocularis (Inf. with) (2014-),Europe,seasonal_median_5y,2,7.458333333333334,0.5848183247095197
+Echinococcus multilocularis (Inf. with) (2014-),Europe,seasonal_persistence,2,7.216666666666667,0.5870777057660531
+Enzootic bovine leukosis,Americas,log_linear_trend,12,10.636141881361135,0.2896525639127971
+Enzootic bovine leukosis,Americas,seasonal_median_5y,12,11.346590909090908,0.3125169494923293
+Enzootic bovine leukosis,Americas,seasonal_persistence,12,15.293371212121214,0.407026793161787
+Enzootic bovine leukosis,Asia,log_linear_trend,12,121.7990961356245,0.36965400518684166
+Enzootic bovine leukosis,Asia,seasonal_median_5y,12,61.083333333333336,0.2233556719244167
+Enzootic bovine leukosis,Asia,seasonal_persistence,12,49.34027777777777,0.19974262830319736
+Enzootic bovine leukosis,Europe,log_linear_trend,12,29.682980244242128,0.71732843015385
+Enzootic bovine leukosis,Europe,seasonal_median_5y,12,26.212584175084174,0.6146615144290277
+Enzootic bovine leukosis,Europe,seasonal_persistence,12,19.813762626262626,0.4957554942144166
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Asia,log_linear_trend,2,1.069536041620615,0.20524381926324853
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Asia,seasonal_median_5y,2,1.5,0.2251807927680735
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Asia,seasonal_persistence,2,2.916666666666667,0.6065741465606374
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Europe,log_linear_trend,2,0.920845458971693,0.17539266722873093
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Europe,seasonal_median_5y,2,0.7916666666666665,0.14905359560890857
+Equid herpesvirus-1 (Inf. with) (Equine rhinopneumonitis) (2014-),Europe,seasonal_persistence,2,0.7916666666666665,0.14905359560890857
+Equine arteritis virus (Inf. with),Europe,log_linear_trend,12,2.415060708335932,0.5887967753287893
+Equine arteritis virus (Inf. with),Europe,seasonal_median_5y,12,2.013888888888889,0.5627465451707478
+Equine arteritis virus (Inf. with),Europe,seasonal_persistence,12,3.8249999999999993,0.8838531004245392
+Equine infectious anaemia,Americas,log_linear_trend,12,23.07568200622518,0.15735179729703555
+Equine infectious anaemia,Americas,seasonal_median_5y,12,24.450338319088313,0.1835907059730827
+Equine infectious anaemia,Americas,seasonal_persistence,12,32.03895502645502,0.23545534656384337
+Equine infectious anaemia,Europe,log_linear_trend,12,7.255931702076828,0.46986117853956266
+Equine infectious anaemia,Europe,seasonal_median_5y,12,6.857837301587302,0.501295541273079
+Equine infectious anaemia,Europe,seasonal_persistence,12,2.5022156084656086,0.268736616972517
+Equine influenza virus (Inf. with),Asia,log_linear_trend,6,6.469011741799787,0.8494182783028885
+Equine influenza virus (Inf. with),Asia,seasonal_median_5y,6,5.833333333333333,0.8446776722027689
+Equine influenza virus (Inf. with),Asia,seasonal_persistence,6,7.0,0.6731709904516834
+Foot and mouth disease virus (Inf. with),Africa,log_linear_trend,10,3.7178228463692187,0.28932851062718135
+Foot and mouth disease virus (Inf. with),Africa,seasonal_median_5y,10,3.9237188855475305,0.2921824732790455
+Foot and mouth disease virus (Inf. with),Africa,seasonal_persistence,10,5.104250161603103,0.4289310873329692
+Foot and mouth disease virus (Inf. with),Asia,log_linear_trend,6,508.48406362830514,2.0183044127501306
+Foot and mouth disease virus (Inf. with),Asia,seasonal_median_5y,6,502.0447689565337,1.7049975184260244
+Foot and mouth disease virus (Inf. with),Asia,seasonal_persistence,6,792.4168552036199,1.5699981800081806
+Foot and mouth disease virus (Inf. with),Middle East,log_linear_trend,9,62.361350680346504,0.7474585936374142
+Foot and mouth disease virus (Inf. with),Middle East,seasonal_median_5y,9,42.02927689594356,0.6012522913022852
+Foot and mouth disease virus (Inf. with),Middle East,seasonal_persistence,9,40.0473544973545,0.6350213495701393
+Fowl typhoid,Africa,log_linear_trend,12,14.029813821798252,0.9387587371059805
+Fowl typhoid,Africa,seasonal_median_5y,12,15.326388888888888,1.0753113293811933
+Fowl typhoid,Africa,seasonal_persistence,12,17.974999999999998,1.2713720328994254
+Fowl typhoid,Americas,log_linear_trend,7,3.398547855861923,0.6189096727010177
+Fowl typhoid,Americas,seasonal_median_5y,7,2.595238095238095,0.45359631220989927
+Fowl typhoid,Americas,seasonal_persistence,7,3.452380952380952,0.5671734092858968
+Fowl typhoid,Asia,log_linear_trend,12,66.41268919692092,0.9954759517822646
+Fowl typhoid,Asia,seasonal_median_5y,12,70.66666666666667,1.036892335132463
+Fowl typhoid,Asia,seasonal_persistence,12,52.30833333333334,1.207974641298605
+Fowl typhoid,Europe,log_linear_trend,2,0.9920235289913939,0.30102141878963273
+Fowl typhoid,Europe,seasonal_median_5y,2,1.0,0.2231435513142097
+Fowl typhoid,Europe,seasonal_persistence,2,0.5,0.15778631831232603
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Africa,log_linear_trend,12,5.204588329280523,0.4872915691335422
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Africa,seasonal_median_5y,12,5.289285714285714,0.4955458954671141
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Africa,seasonal_persistence,12,8.13640873015873,0.6951460868083426
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Asia,log_linear_trend,12,25.423600571152836,0.830578390947457
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Asia,seasonal_median_5y,12,15.584310365560365,0.44020118768087113
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Asia,seasonal_persistence,12,11.392526455026456,0.3844820134838285
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Middle East,log_linear_trend,12,4.633745735506873,0.827010356120003
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Middle East,seasonal_median_5y,12,5.958333333333333,0.9799462950602235
+Haemorrhagic septicaemia (Pasteurella multocida serotypes 6:b and 6:e),Middle East,seasonal_persistence,12,5.1875,0.8743382326487313
+Heartwater,Africa,log_linear_trend,12,38.47061624671335,0.8186276567779884
+Heartwater,Africa,seasonal_median_5y,12,40.10621184371185,0.7939950651603435
+Heartwater,Africa,seasonal_persistence,12,44.11730769230769,1.0811203815900499
+Heartwater,Middle East,log_linear_trend,11,2.306953125364995,0.5039083476515674
+Heartwater,Middle East,seasonal_median_5y,11,2.8181818181818183,0.5414881762526079
+Heartwater,Middle East,seasonal_persistence,11,2.6363636363636362,0.5325332885495484
+Hepatobacter penaei (Inf. with)(Necrotising hepatopancreatitis)(2011-),Americas,log_linear_trend,8,22.61459751627415,1.1616195543296308
+Hepatobacter penaei (Inf. with)(Necrotising hepatopancreatitis)(2011-),Americas,seasonal_median_5y,8,18.104166666666664,1.023475623434507
+Hepatobacter penaei (Inf. with)(Necrotising hepatopancreatitis)(2011-),Americas,seasonal_persistence,8,9.510416666666666,0.9038413652609594
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Africa,log_linear_trend,11,14.45498404597407,1.1957232818821861
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Africa,seasonal_median_5y,11,15.18459595959596,1.2844915319811845
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Africa,seasonal_persistence,11,22.443434343434344,1.6602164096574354
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Americas,log_linear_trend,2,8.318033696680143,0.4446627049397999
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Americas,seasonal_median_5y,2,8.575,0.5411984538280711
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Americas,seasonal_persistence,2,51.53333333333334,1.1554364508090265
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Asia,log_linear_trend,12,9.267129860562392,0.4705065200142519
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Asia,seasonal_median_5y,12,11.142890211640212,0.49159102787272574
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Asia,seasonal_persistence,12,11.280324074074073,0.5610986952985979
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Europe,log_linear_trend,11,21.651619079420957,1.0604027603976938
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Europe,seasonal_median_5y,11,23.48602121562648,1.122984071495598
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Europe,seasonal_persistence,11,23.61856060606061,1.1921063707449575
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Middle East,log_linear_trend,12,9.92971722056047,0.9440800809874409
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Middle East,seasonal_median_5y,12,10.833333333333334,0.9628402192959308
+High pathogenicity avian influenza viruses (Inf. with) (poultry),Middle East,seasonal_persistence,12,5.925,0.7963461872434773
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Americas,log_linear_trend,12,19.674502066075206,0.45254460558311477
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Americas,seasonal_median_5y,12,21.37664025789026,0.4918596956779765
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Americas,seasonal_persistence,12,20.7817125004625,0.42839353157118115
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Asia,log_linear_trend,12,15.042768522393247,1.1437215338075972
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Asia,seasonal_median_5y,12,14.255555555555555,1.0888624755092162
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Asia,seasonal_persistence,12,15.419444444444444,0.9713170574680584
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Europe,log_linear_trend,12,28.42297869850246,1.0245772741139694
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Europe,seasonal_median_5y,12,26.68560999185999,0.8583916616620795
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Europe,seasonal_persistence,12,19.54208754208754,0.5663959399603525
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Middle East,log_linear_trend,9,4.375979324051632,0.714062659067764
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Middle East,seasonal_median_5y,9,6.111111111111111,0.865058374140967
+Infectious bovine rhinotracheitis/infectious pustular vulvovaginitis,Middle East,seasonal_persistence,9,6.555555555555555,0.8206936658033034
+Infectious bursal disease (Gumboro disease),Africa,log_linear_trend,12,14.717378416015324,0.650192568202845
+Infectious bursal disease (Gumboro disease),Africa,seasonal_median_5y,12,11.73852513227513,0.5664287335994129
+Infectious bursal disease (Gumboro disease),Africa,seasonal_persistence,12,10.405026455026457,0.521450224523543
+Infectious bursal disease (Gumboro disease),Americas,log_linear_trend,12,149.90224390915205,2.0429102341537435
+Infectious bursal disease (Gumboro disease),Americas,seasonal_median_5y,12,81.18055555555556,1.7827782118576818
+Infectious bursal disease (Gumboro disease),Americas,seasonal_persistence,12,109.19444444444446,2.437441375191542
+Infectious bursal disease (Gumboro disease),Asia,log_linear_trend,12,16.46333862779684,0.521906115660259
+Infectious bursal disease (Gumboro disease),Asia,seasonal_median_5y,12,19.119907407407407,0.5939742175296753
+Infectious bursal disease (Gumboro disease),Asia,seasonal_persistence,12,11.85353835978836,0.37323557714402295
+Infectious bursal disease (Gumboro disease),Europe,log_linear_trend,7,2.1252463161425275,0.6769358055736606
+Infectious bursal disease (Gumboro disease),Europe,seasonal_median_5y,7,1.4404761904761902,0.5287850612721735
+Infectious bursal disease (Gumboro disease),Europe,seasonal_persistence,7,2.0952380952380953,0.6754497865206525
+Infectious bursal disease (Gumboro disease),Middle East,log_linear_trend,11,37.98344945871417,1.292700026819434
+Infectious bursal disease (Gumboro disease),Middle East,seasonal_median_5y,11,38.589393939393936,1.243739210263018
+Infectious bursal disease (Gumboro disease),Middle East,seasonal_persistence,11,72.67878787878789,1.6811325541335453
+Infectious haematopoietic necrosis virus (Inf. with),Asia,log_linear_trend,6,40.02497239885934,0.8030539412538374
+Infectious haematopoietic necrosis virus (Inf. with),Asia,seasonal_median_5y,6,6.083333333333333,0.20385445932394922
+Infectious haematopoietic necrosis virus (Inf. with),Asia,seasonal_persistence,6,9.416666666666666,0.3455201243428409
+Infectious haematopoietic necrosis virus (Inf. with),Europe,log_linear_trend,12,3.0066478549820133,0.5865277286613035
+Infectious haematopoietic necrosis virus (Inf. with),Europe,seasonal_median_5y,12,3.2686507936507936,0.690430889324263
+Infectious haematopoietic necrosis virus (Inf. with),Europe,seasonal_persistence,12,2.9609126984126988,0.5976648848726662
+Infectious haematopoietic necrosis virus (Inf. with),Middle East,log_linear_trend,4,2.0633773821258545,0.48271438120110366
+Infectious haematopoietic necrosis virus (Inf. with),Middle East,seasonal_median_5y,4,1.5,0.386240973536878
+Infectious haematopoietic necrosis virus (Inf. with),Middle East,seasonal_persistence,4,2.25,0.4501805574395697
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Americas,log_linear_trend,12,29.60916536593577,0.5939731510182944
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Americas,seasonal_median_5y,12,19.501587301587296,0.4296046334845899
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Americas,seasonal_persistence,12,26.988888888888884,0.6082764597644654
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Asia,log_linear_trend,10,6.23952034029496,1.2477231283074204
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Asia,seasonal_median_5y,10,5.716666666666667,1.0509906536644844
+Infectious hypodermal and haematopoietic necrosis virus (Inf. with),Asia,seasonal_persistence,10,7.2,1.1480476180249986
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Americas,log_linear_trend,12,3.8773819266385203,0.6399108388656626
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Americas,seasonal_median_5y,12,4.166666666666667,0.6232797330504443
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Americas,seasonal_persistence,12,4.9444444444444455,0.739293935866944
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Europe,log_linear_trend,12,3.1256051990097156,0.4993041598130301
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Europe,seasonal_median_5y,12,3.027777777777778,0.503010066764241
+Infectious salmon anaemia virus (Inf. with) (HPR-deleted or HPR0 genotypes),Europe,seasonal_persistence,12,4.569444444444445,0.6822941312240802
+Japanese encephalitis,Asia,log_linear_trend,12,14.12058108243587,1.2130348609161985
+Japanese encephalitis,Asia,seasonal_median_5y,12,9.625,1.002167486143191
+Japanese encephalitis,Asia,seasonal_persistence,12,9.666666666666666,1.08874800150217
+Koi herpesvirus (Inf. with),Asia,log_linear_trend,12,2.25787511127538,0.4906873756944008
+Koi herpesvirus (Inf. with),Asia,seasonal_median_5y,12,2.055555555555556,0.43469466680223395
+Koi herpesvirus (Inf. with),Asia,seasonal_persistence,12,2.055555555555556,0.4570984980963155
+Koi herpesvirus (Inf. with),Europe,log_linear_trend,12,2.021452354570897,0.3692802250315209
+Koi herpesvirus (Inf. with),Europe,seasonal_median_5y,12,2.1895292207792205,0.3869672800481682
+Koi herpesvirus (Inf. with),Europe,seasonal_persistence,12,2.6881854256854254,0.4972261930918964
+Leishmania spp. (Inf. with) (Leishmaniosis),Africa,log_linear_trend,4,6.660664756734322,0.9282448830485925
+Leishmania spp. (Inf. with) (Leishmaniosis),Africa,seasonal_median_5y,4,7.125,0.9937125407674484
+Leishmania spp. (Inf. with) (Leishmaniosis),Africa,seasonal_persistence,4,9.625,1.0455441601257842
+Leishmania spp. (Inf. with) (Leishmaniosis),Asia,log_linear_trend,12,5.011252019205121,0.4844976383466152
+Leishmania spp. (Inf. with) (Leishmaniosis),Asia,seasonal_median_5y,12,5.138888888888888,0.48420661531997583
+Leishmania spp. (Inf. with) (Leishmaniosis),Asia,seasonal_persistence,12,6.958333333333333,0.6359449492545654
+Leishmania spp. (Inf. with) (Leishmaniosis),Europe,log_linear_trend,12,13.093203008827127,0.7494518591742674
+Leishmania spp. (Inf. with) (Leishmaniosis),Europe,seasonal_median_5y,12,12.08472222222222,0.61853147517985
+Leishmania spp. (Inf. with) (Leishmaniosis),Europe,seasonal_persistence,12,11.530555555555557,0.5574545106727764
+Leishmania spp. (Inf. with) (Leishmaniosis),Middle East,log_linear_trend,7,252.53971593964417,0.511531573365791
+Leishmania spp. (Inf. with) (Leishmaniosis),Middle East,seasonal_median_5y,7,213.71428571428572,0.5180213163863286
+Leishmania spp. (Inf. with) (Leishmaniosis),Middle East,seasonal_persistence,7,59.57142857142857,0.15884673184182244
+Low pathogenic avian influenza (poultry) (2006-2021),Americas,log_linear_trend,6,11.053268273330758,0.9496541478537134
+Low pathogenic avian influenza (poultry) (2006-2021),Americas,seasonal_median_5y,6,10.166666666666666,0.8586166775396531
+Low pathogenic avian influenza (poultry) (2006-2021),Americas,seasonal_persistence,6,8.666666666666666,0.8290569574147815
+Low pathogenic avian influenza (poultry) (2006-2021),Asia,log_linear_trend,6,6.111764364980576,0.9256713592255389
+Low pathogenic avian influenza (poultry) (2006-2021),Asia,seasonal_median_5y,6,6.0694444444444455,0.9012256738036949
+Low pathogenic avian influenza (poultry) (2006-2021),Asia,seasonal_persistence,6,7.041666666666667,0.7669711777057745
+Low pathogenic avian influenza (poultry) (2006-2021),Europe,log_linear_trend,3,0.824218507626162,0.25643439558807346
+Low pathogenic avian influenza (poultry) (2006-2021),Europe,seasonal_median_5y,3,0.6944444444444445,0.21090761037422362
+Low pathogenic avian influenza (poultry) (2006-2021),Europe,seasonal_persistence,3,2.138888888888889,0.495224489839351
+Lumpy skin disease virus (Inf. with),Africa,log_linear_trend,1,0.6663471006167754,0.006312423693626279
+Lumpy skin disease virus (Inf. with),Africa,seasonal_median_5y,1,11.930451127819552,0.11953078118810101
+Lumpy skin disease virus (Inf. with),Africa,seasonal_persistence,1,11.930451127819552,0.11953078118810101
+Lumpy skin disease virus (Inf. with),Asia,log_linear_trend,3,143.18210367573337,1.0171744532720244
+Lumpy skin disease virus (Inf. with),Asia,seasonal_median_5y,3,177.265873015873,1.9559259232049737
+Lumpy skin disease virus (Inf. with),Asia,seasonal_persistence,3,3195.304894179894,2.3876988596670836
+Lumpy skin disease virus (Inf. with),Middle East,log_linear_trend,12,43.20522710389448,1.3062861505829306
+Lumpy skin disease virus (Inf. with),Middle East,seasonal_median_5y,12,36.753009259259265,1.1141258580663185
+Lumpy skin disease virus (Inf. with),Middle East,seasonal_persistence,12,56.75439814814815,1.1483272590231302
+Maedi-visna,Europe,log_linear_trend,12,2.6706296147360873,0.28555676603706653
+Maedi-visna,Europe,seasonal_median_5y,12,3.3019841269841272,0.3349320234870627
+Maedi-visna,Europe,seasonal_persistence,12,4.0773809523809526,0.38083031742865703
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Americas,log_linear_trend,10,3.661927677785576,0.7225687186059985
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Americas,seasonal_median_5y,10,8.341666666666667,1.185579332686573
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Americas,seasonal_persistence,10,6.8583333333333325,1.1232278393734758
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Asia,log_linear_trend,12,4.145178621938672,0.5713663547745367
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Asia,seasonal_median_5y,12,3.5,0.48972612943608157
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Asia,seasonal_persistence,12,6.583333333333333,0.7826932114889674
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Europe,log_linear_trend,12,13.718454024776179,0.3996797521921308
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Europe,seasonal_median_5y,12,13.304034391534392,0.39059357988492105
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Europe,seasonal_persistence,12,16.92685185185185,0.5157656953568227
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Middle East,log_linear_trend,6,59.648239633419614,2.035018932565519
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Middle East,seasonal_median_5y,6,69.16666666666667,2.211352725904952
+Melissococcus plutonius (Inf. of honey bees with) (European foulbrood),Middle East,seasonal_persistence,6,82.33333333333333,2.70578147661608
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Africa,log_linear_trend,7,8.45724756259338,1.0702959278004343
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Africa,seasonal_median_5y,7,5.142857142857144,0.6546980092595698
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Africa,seasonal_persistence,7,4.309523809523809,0.4360261922126055
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Americas,log_linear_trend,12,86.21768065658354,0.8699004850151904
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Americas,seasonal_median_5y,12,86.21537698412699,0.8669823074305181
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Americas,seasonal_persistence,12,83.74335317460317,0.8176710857487897
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Asia,log_linear_trend,12,15.498055494970147,0.44959835760749584
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Asia,seasonal_median_5y,12,21.495238095238093,0.7109756164415028
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Asia,seasonal_persistence,12,18.06785714285714,0.5507653004540787
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Europe,log_linear_trend,12,2.08833170321722,0.6028339567561863
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Europe,seasonal_median_5y,12,1.5527777777777778,0.4819191392899982
+Mycoplasma gallisepticum (Inf. with) (Avian mycoplasmosis),Europe,seasonal_persistence,12,0.9541666666666666,0.40636311267711217
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Africa,log_linear_trend,12,10.200931376055044,0.5360243808642106
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Africa,seasonal_median_5y,12,11.49064931528167,0.5939475032228396
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Africa,seasonal_persistence,12,9.498809523809523,0.434767824834879
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Middle East,log_linear_trend,9,3.3372930269860457,0.8444523329784998
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Middle East,seasonal_median_5y,9,2.611111111111111,0.7201080782139879
+Mycoplasma mycoides subsp. mycoides (Inf. with) (Contagious bovine pleuropneumonia),Middle East,seasonal_persistence,9,2.388888888888889,0.6647346008566006
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Americas,log_linear_trend,12,40.87277492773316,0.5708572656481911
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Americas,seasonal_median_5y,12,37.387499999999996,0.5578927683671356
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Americas,seasonal_persistence,12,39.88333333333333,0.6148108151129706
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Asia,log_linear_trend,12,18.04954471877614,1.2377411702363543
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Asia,seasonal_median_5y,12,7.5,0.901004926180738
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Asia,seasonal_persistence,12,9.944444444444445,1.0125364902900917
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Europe,log_linear_trend,11,3.2307608541080386,0.5602748052622624
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Europe,seasonal_median_5y,11,3.734848484848485,0.6083340461982398
+Mycoplasma synoviae (Inf. with) (Avian mycoplasmosis) (2006-),Europe,seasonal_persistence,11,5.818181818181818,0.879407918309295
+Myxomatosis,Europe,log_linear_trend,10,11.644058657754908,0.9861850268602643
+Myxomatosis,Europe,seasonal_median_5y,10,11.123333333333333,0.8655137621609338
+Myxomatosis,Europe,seasonal_persistence,10,16.428333333333335,0.9160585817588133
+Newcastle disease virus (Inf. with),Africa,log_linear_trend,12,7.5086836280008535,0.274881395758834
+Newcastle disease virus (Inf. with),Africa,seasonal_median_5y,12,7.729157260927036,0.30553403059991907
+Newcastle disease virus (Inf. with),Africa,seasonal_persistence,12,6.5571812119688895,0.31982978068318507
+Newcastle disease virus (Inf. with),Americas,log_linear_trend,12,4.779279559744377,0.8366512826714226
+Newcastle disease virus (Inf. with),Americas,seasonal_median_5y,12,6.169444444444444,0.9576233908032585
+Newcastle disease virus (Inf. with),Americas,seasonal_persistence,12,8.804166666666667,1.279371127248529
+Newcastle disease virus (Inf. with),Asia,log_linear_trend,12,12.54811900702603,0.5084751160644306
+Newcastle disease virus (Inf. with),Asia,seasonal_median_5y,12,9.721164021164022,0.39340112535763405
+Newcastle disease virus (Inf. with),Asia,seasonal_persistence,12,10.756216931216931,0.5296561777791193
+Newcastle disease virus (Inf. with),Europe,log_linear_trend,12,2.752632255755524,0.6971673780690092
+Newcastle disease virus (Inf. with),Europe,seasonal_median_5y,12,2.3236111111111115,0.5254947511424667
+Newcastle disease virus (Inf. with),Europe,seasonal_persistence,12,2.486111111111111,0.5880206418476518
+Newcastle disease virus (Inf. with),Middle East,log_linear_trend,12,77.06078134981003,1.295650819244478
+Newcastle disease virus (Inf. with),Middle East,seasonal_median_5y,12,63.79275793650794,1.1386200874928258
+Newcastle disease virus (Inf. with),Middle East,seasonal_persistence,12,94.45238095238095,1.5872185225946636
+Ovine epididymitis (Brucella ovis),Africa,log_linear_trend,9,4.910824924601025,0.69584091920892
+Ovine epididymitis (Brucella ovis),Africa,seasonal_median_5y,9,5.166666666666667,0.7255211083141109
+Ovine epididymitis (Brucella ovis),Africa,seasonal_persistence,9,3.7777777777777777,0.6110734972335887
+Ovine epididymitis (Brucella ovis),Americas,log_linear_trend,12,52.608411624901656,1.1374305834779141
+Ovine epididymitis (Brucella ovis),Americas,seasonal_median_5y,12,35.1625,0.834642820681963
+Ovine epididymitis (Brucella ovis),Americas,seasonal_persistence,12,61.041666666666664,1.0324204599476998
+Ovine epididymitis (Brucella ovis),Europe,log_linear_trend,12,8.43929874995203,0.7143409288639182
+Ovine epididymitis (Brucella ovis),Europe,seasonal_median_5y,12,12.616468253968256,0.9718225688463363
+Ovine epididymitis (Brucella ovis),Europe,seasonal_persistence,12,9.062301587301588,0.7256824612316262
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Americas,log_linear_trend,5,8.959839237122084,1.353922966860481
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Americas,seasonal_median_5y,5,8.433333333333334,1.2774262386194546
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Americas,seasonal_persistence,5,10.8,1.1317625173971586
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Asia,log_linear_trend,12,4.422119324101923,0.4726250694560716
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Asia,seasonal_median_5y,12,5.625,0.5758373268550366
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Asia,seasonal_persistence,12,3.736111111111111,0.43083179300690094
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Europe,log_linear_trend,12,7.813070436458424,0.29136703033782385
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Europe,seasonal_median_5y,12,7.89980524668319,0.2889082596955804
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Europe,seasonal_persistence,12,6.465068512785231,0.2502591543418907
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Middle East,log_linear_trend,12,76.30623854104,1.7869645808607972
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Middle East,seasonal_median_5y,12,43.208333333333336,1.4490935709414343
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Middle East,seasonal_persistence,12,51.875,1.687866620430096
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Oceania,log_linear_trend,12,218.54339244377195,0.7568928670581128
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Oceania,seasonal_median_5y,12,152.18055555555557,0.5781449682182319
+Paenibacillus larvae (Inf. of honey bees with) (American foulbrood),Oceania,seasonal_persistence,12,76.68055555555556,0.26901037397178706
+Paratuberculosis,Africa,log_linear_trend,12,4.505638044458144,0.6694294719831421
+Paratuberculosis,Africa,seasonal_median_5y,12,3.5833333333333335,0.5697988039775402
+Paratuberculosis,Africa,seasonal_persistence,12,3.25,0.5173437310551419
+Paratuberculosis,Americas,log_linear_trend,12,3.2169069255379643,0.4878581986168089
+Paratuberculosis,Americas,seasonal_median_5y,12,1.8076388888888888,0.31267328614994994
+Paratuberculosis,Americas,seasonal_persistence,12,2.5317460317460316,0.41185782180266695
+Paratuberculosis,Asia,log_linear_trend,12,17.753064963667015,0.30340647426515827
+Paratuberculosis,Asia,seasonal_median_5y,12,13.623611111111112,0.251965853282759
+Paratuberculosis,Asia,seasonal_persistence,12,19.155555555555555,0.31742332118663164
+Paratuberculosis,Europe,log_linear_trend,12,15.004192396645841,0.44257117833403187
+Paratuberculosis,Europe,seasonal_median_5y,12,14.881458818958821,0.4044450749871404
+Paratuberculosis,Europe,seasonal_persistence,12,19.229641423391424,0.5894001438741919
+Paratuberculosis,Middle East,log_linear_trend,12,21.0488917925063,1.4006441970768408
+Paratuberculosis,Middle East,seasonal_median_5y,12,17.930555555555554,1.1669173915391702
+Paratuberculosis,Middle East,seasonal_persistence,12,11.458333333333334,0.718185866432501
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Africa,log_linear_trend,2,35.89146650942745,2.0366363882199514
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Africa,seasonal_median_5y,2,36.833333333333336,2.038789561774057
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Africa,seasonal_persistence,2,50.5,2.2905746913230773
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Asia,log_linear_trend,9,1.582043755278162,0.5701184096389227
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Asia,seasonal_median_5y,9,3.7962962962962967,0.9574290164852238
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Asia,seasonal_persistence,9,2.1944444444444446,0.6816478239764747
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Europe,log_linear_trend,12,2.1737502275172016,0.3679418858872741
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Europe,seasonal_median_5y,12,1.8045380545380547,0.33979913266081063
+Pathogenic rabbit lagoviruses (Inf. with) (Rabbit haemorrhagic disease),Europe,seasonal_persistence,12,2.4215608465608462,0.40535074539776983
+Peste des petits ruminants virus (Inf. with),Africa,log_linear_trend,12,25.51159384002995,0.7557819850860773
+Peste des petits ruminants virus (Inf. with),Africa,seasonal_median_5y,12,25.244942557442556,0.81952818829845
+Peste des petits ruminants virus (Inf. with),Africa,seasonal_persistence,12,13.26751678876679,0.423605497928594
+Peste des petits ruminants virus (Inf. with),Asia,log_linear_trend,12,22.629357378113585,0.9722364466415437
+Peste des petits ruminants virus (Inf. with),Asia,seasonal_median_5y,12,20.695039682539683,0.7997441567010393
+Peste des petits ruminants virus (Inf. with),Asia,seasonal_persistence,12,35.86111111111111,1.1610062038509252
+Peste des petits ruminants virus (Inf. with),Middle East,log_linear_trend,10,77.1363781486543,1.1847362396791616
+Peste des petits ruminants virus (Inf. with),Middle East,seasonal_median_5y,10,39.14655844155844,0.7849874956283424
+Peste des petits ruminants virus (Inf. with),Middle East,seasonal_persistence,10,18.21434343434343,0.5549366872915296
+Porcine reproductive and respiratory syndrome virus (Inf. with),Americas,log_linear_trend,12,65.48762233780825,0.6700255961289764
+Porcine reproductive and respiratory syndrome virus (Inf. with),Americas,seasonal_median_5y,12,58.025000000000006,0.5565867120047512
+Porcine reproductive and respiratory syndrome virus (Inf. with),Americas,seasonal_persistence,12,75.5513888888889,0.7644803178624454
+Porcine reproductive and respiratory syndrome virus (Inf. with),Asia,log_linear_trend,12,10.090049835522322,0.8103259538237417
+Porcine reproductive and respiratory syndrome virus (Inf. with),Asia,seasonal_median_5y,12,6.639285714285715,0.5178152502293564
+Porcine reproductive and respiratory syndrome virus (Inf. with),Asia,seasonal_persistence,12,10.957936507936507,0.7122854134828204
+Porcine reproductive and respiratory syndrome virus (Inf. with),Europe,log_linear_trend,12,12.800717058400531,1.3137340623155718
+Porcine reproductive and respiratory syndrome virus (Inf. with),Europe,seasonal_median_5y,12,11.96111111111111,1.2484295716789588
+Porcine reproductive and respiratory syndrome virus (Inf. with),Europe,seasonal_persistence,12,20.530555555555555,1.7165105248795416
+Pullorum disease,Africa,log_linear_trend,10,5.023348603088993,0.94721664567915
+Pullorum disease,Africa,seasonal_median_5y,10,5.183333333333333,1.073693519629904
+Pullorum disease,Africa,seasonal_persistence,10,6.666666666666667,1.0807185047826526
+Pullorum disease,Asia,log_linear_trend,12,213.398707551343,0.6856936959660214
+Pullorum disease,Asia,seasonal_median_5y,12,316.2861111111111,0.929796805361631
+Pullorum disease,Asia,seasonal_persistence,12,204.63888888888889,0.5787849347967028
+Rabies virus (Inf. with),Africa,log_linear_trend,1,3.7285459658279834,0.09678246614660502
+Rabies virus (Inf. with),Africa,seasonal_median_5y,1,4.360531309297912,0.11415715853092667
+Rabies virus (Inf. with),Africa,seasonal_persistence,1,6.280465949820794,0.16887157930099717
+Rabies virus (Inf. with),Americas,log_linear_trend,12,8.014468759209818,0.19697273631641468
+Rabies virus (Inf. with),Americas,seasonal_median_5y,12,10.510940262294751,0.24274231303849947
+Rabies virus (Inf. with),Americas,seasonal_persistence,12,10.913127385457107,0.2245189332405949
+Rabies virus (Inf. with),Asia,log_linear_trend,12,32.70161435431248,0.5809427695520634
+Rabies virus (Inf. with),Asia,seasonal_median_5y,12,24.322881065944156,0.5217745945640437
+Rabies virus (Inf. with),Asia,seasonal_persistence,12,35.936151141743245,0.6098069961804287
+Rabies virus (Inf. with),Europe,log_linear_trend,12,41.12118185188444,0.29348076432803655
+Rabies virus (Inf. with),Europe,seasonal_median_5y,12,39.3218253968254,0.32092262238853997
+Rabies virus (Inf. with),Europe,seasonal_persistence,12,57.76957671957672,0.4280355801735964
+Rabies virus (Inf. with),Middle East,log_linear_trend,12,11.157477927749087,0.42429230853086625
+Rabies virus (Inf. with),Middle East,seasonal_median_5y,12,11.738888888888889,0.4642021202921815
+Rabies virus (Inf. with),Middle East,seasonal_persistence,12,11.596527777777778,0.4313441870029863
+Ranavirus (Inf. with)(2009-),Europe,log_linear_trend,1,1.310130056182084,0.39680151669802566
+Ranavirus (Inf. with)(2009-),Europe,seasonal_median_5y,1,2.0,0.6931471805599453
+Ranavirus (Inf. with)(2009-),Europe,seasonal_persistence,1,0.5,0.13353139262452252
+Red sea bream iridovirus (Inf. with) (-2024),Asia,log_linear_trend,12,18.950257625274368,0.8384408861893852
+Red sea bream iridovirus (Inf. with) (-2024),Asia,seasonal_median_5y,12,19.854166666666668,0.8588327209340667
+Red sea bream iridovirus (Inf. with) (-2024),Asia,seasonal_persistence,12,29.204166666666666,1.1269177583169634
+Rift Valley fever virus (Inf. with),Africa,log_linear_trend,10,7.3437635765286045,0.9311040639400512
+Rift Valley fever virus (Inf. with),Africa,seasonal_median_5y,10,8.825,1.1296644964822742
+Rift Valley fever virus (Inf. with),Africa,seasonal_persistence,10,11.858333333333333,1.4180565905687421
+Salmonellosis (S. abortusovis),Asia,log_linear_trend,12,95.24481508948622,0.9553991618582839
+Salmonellosis (S. abortusovis),Asia,seasonal_median_5y,12,107.0138888888889,1.4722220363879313
+Salmonellosis (S. abortusovis),Asia,seasonal_persistence,12,49.638888888888886,0.6672600212217471
+Salmonellosis (S. abortusovis),Europe,log_linear_trend,9,3.142391294732666,0.6290177869019201
+Salmonellosis (S. abortusovis),Europe,seasonal_median_5y,9,3.231481481481482,0.632817689160347
+Salmonellosis (S. abortusovis),Europe,seasonal_persistence,9,4.407407407407407,0.8617584396172607
+Salmonid alphavirus (Inf. with)(2014-),Europe,log_linear_trend,1,35.149555140819174,1.2308407811215756
+Salmonid alphavirus (Inf. with)(2014-),Europe,seasonal_median_5y,1,29.5,1.1100409844917323
+Salmonid alphavirus (Inf. with)(2014-),Europe,seasonal_persistence,1,11.5,0.5839478885949534
+Scrapie,Americas,log_linear_trend,1,1.2840447140158133,0.5586423450606042
+Scrapie,Americas,seasonal_median_5y,1,0.0,0.0
+Scrapie,Americas,seasonal_persistence,1,0.0,0.0
+Scrapie,Europe,log_linear_trend,12,1.7158148669437214,0.2625645629599801
+Scrapie,Europe,seasonal_median_5y,12,1.3877074314574314,0.2369204934461445
+Scrapie,Europe,seasonal_persistence,12,1.483411495911496,0.2698678891195438
+Scrapie,Middle East,log_linear_trend,7,1.2925655087430494,0.38277381645040587
+Scrapie,Middle East,seasonal_median_5y,7,2.2857142857142856,0.6655122575176831
+Scrapie,Middle East,seasonal_persistence,7,1.4285714285714286,0.39121052705080556
+Sheep pox and goat pox,Africa,log_linear_trend,12,24.64283479261108,0.7022183493142059
+Sheep pox and goat pox,Africa,seasonal_median_5y,12,26.52714947089947,0.739582453518126
+Sheep pox and goat pox,Africa,seasonal_persistence,12,29.650000000000002,0.6915978182837967
+Sheep pox and goat pox,Asia,log_linear_trend,9,6.3756101186854695,0.3546587040751337
+Sheep pox and goat pox,Asia,seasonal_median_5y,9,8.505820105820105,0.43807236142552175
+Sheep pox and goat pox,Asia,seasonal_persistence,9,5.98095238095238,0.3236877353795184
+Sheep pox and goat pox,Europe,log_linear_trend,3,57.65923423961724,1.4443358567167481
+Sheep pox and goat pox,Europe,seasonal_median_5y,3,58.166666666666664,1.606501615564061
+Sheep pox and goat pox,Europe,seasonal_persistence,3,64.16666666666667,1.9385794758144732
+Sheep pox and goat pox,Middle East,log_linear_trend,12,49.23601580625495,0.9497263860277246
+Sheep pox and goat pox,Middle East,seasonal_median_5y,12,46.230026455026454,0.860159232418286
+Sheep pox and goat pox,Middle East,seasonal_persistence,12,56.20198412698414,0.9448420558468569
+Taenia solium (Inf. with) (Porcine cysticercosis),Africa,log_linear_trend,12,19.968777530340688,1.156063880827809
+Taenia solium (Inf. with) (Porcine cysticercosis),Africa,seasonal_median_5y,12,21.145833333333332,1.2645449287224455
+Taenia solium (Inf. with) (Porcine cysticercosis),Africa,seasonal_persistence,12,21.21527777777778,1.09536045976419
+Taenia solium (Inf. with) (Porcine cysticercosis),Americas,log_linear_trend,2,6.4362651270647655,0.9622390691409086
+Taenia solium (Inf. with) (Porcine cysticercosis),Americas,seasonal_median_5y,2,2.25,0.5306665566664027
+Taenia solium (Inf. with) (Porcine cysticercosis),Americas,seasonal_persistence,2,2.75,0.6208744807609194
+Taenia solium (Inf. with) (Porcine cysticercosis),Asia,log_linear_trend,7,1.2048658818178672,0.47159099921942293
+Taenia solium (Inf. with) (Porcine cysticercosis),Asia,seasonal_median_5y,7,1.8571428571428572,0.7015840560085476
+Taenia solium (Inf. with) (Porcine cysticercosis),Asia,seasonal_persistence,7,1.4285714285714286,0.5032805556271748
+Taenia solium (Inf. with) (Porcine cysticercosis),Europe,log_linear_trend,1,0.7012250348304965,0.3005582061559706
+Taenia solium (Inf. with) (Porcine cysticercosis),Europe,seasonal_median_5y,1,1.0,0.4054651081081645
+Taenia solium (Inf. with) (Porcine cysticercosis),Europe,seasonal_persistence,1,0.0,0.0
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Europe,log_linear_trend,12,1.8909779186149904,0.3216913440979258
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Europe,seasonal_median_5y,12,1.9986111111111111,0.3241399417954786
+Taylorella equigenitalis (Inf. with) (Contagious equine metritis),Europe,seasonal_persistence,12,2.888888888888889,0.45050762126169674
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Africa,log_linear_trend,12,82.17008798522423,0.9838979070959892
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Africa,seasonal_median_5y,12,71.9251984126984,0.9018178450277623
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Africa,seasonal_persistence,12,83.73343253968254,1.019183246598794
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Asia,log_linear_trend,12,64.94547634223815,1.3428469838183856
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Asia,seasonal_median_5y,12,71.80277777777779,1.6278963620781843
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Asia,seasonal_persistence,12,99.77896825396827,1.671256394026799
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Middle East,log_linear_trend,12,42.86937491359357,0.7646104334008664
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Middle East,seasonal_median_5y,12,73.45803571428571,0.8232424218035295
+"Theileria annulata, Theileria orientalis and Theileria parva (Inf. with)",Middle East,seasonal_persistence,12,57.82103174603174,0.755633779624317
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Americas,log_linear_trend,12,6.878990847542139,0.5863956368498283
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Americas,seasonal_median_5y,12,8.7625,0.6121330763273108
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Americas,seasonal_persistence,12,8.029166666666667,0.7661976166472217
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Europe,log_linear_trend,7,0.9326343277696832,0.4723840599669504
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Europe,seasonal_median_5y,7,0.880952380952381,0.3857338814747648
+Theileria equi and Babesia caballi (Inf. with) (Equine piroplasmosis),Europe,seasonal_persistence,7,0.8571428571428571,0.36281833311814493
+Transmissible gastroenteritis,Asia,log_linear_trend,12,605.7084810288158,0.7060434825107887
+Transmissible gastroenteritis,Asia,seasonal_median_5y,12,638.625,0.6409795714225454
+Transmissible gastroenteritis,Asia,seasonal_persistence,12,372.25,0.4780541957259888
+Trichinella spp. (Inf. with),Americas,log_linear_trend,12,4.5599779936631535,0.3304148524267982
+Trichinella spp. (Inf. with),Americas,seasonal_median_5y,12,5.486111111111112,0.4129098425903692
+Trichinella spp. (Inf. with),Americas,seasonal_persistence,12,6.347222222222222,0.43494772446089286
+Trichinella spp. (Inf. with),Asia,log_linear_trend,6,1.8367856735767951,0.3163163964826629
+Trichinella spp. (Inf. with),Asia,seasonal_median_5y,6,1.6944444444444446,0.3508555248258469
+Trichinella spp. (Inf. with),Asia,seasonal_persistence,6,2.1666666666666665,0.3135478551380142
+Trichinella spp. (Inf. with),Europe,log_linear_trend,12,7.952082015149365,0.2909020407285128
+Trichinella spp. (Inf. with),Europe,seasonal_median_5y,12,7.661527939652939,0.27883832543581866
+Trichinella spp. (Inf. with),Europe,seasonal_persistence,12,7.120945952195952,0.2673931597607136
+Trichomonosis,Africa,log_linear_trend,6,3.6507806453004803,0.6964258224012521
+Trichomonosis,Africa,seasonal_median_5y,6,4.333333333333333,0.7540098371235143
+Trichomonosis,Africa,seasonal_persistence,6,3.3333333333333335,0.7000804108113583
+Trichomonosis,Europe,log_linear_trend,1,0.988141370054975,0.4015043981934864
+Trichomonosis,Europe,seasonal_median_5y,1,1.0,0.4054651081081645
+Trichomonosis,Europe,seasonal_persistence,1,0.5,0.22314355131420982
+Trypanosoma equiperdum (Inf. with) (Dourine),Africa,log_linear_trend,1,1.6725393849382941,0.6077361727338896
+Trypanosoma equiperdum (Inf. with) (Dourine),Africa,seasonal_median_5y,1,2.5,0.8109302162163289
+Trypanosoma equiperdum (Inf. with) (Dourine),Africa,seasonal_persistence,1,1.0,0.4054651081081645
+Trypanosoma equiperdum (Inf. with) (Dourine),Asia,log_linear_trend,4,9.448272938680898,0.829068170904854
+Trypanosoma equiperdum (Inf. with) (Dourine),Asia,seasonal_median_5y,4,7.75,0.7241155035493285
+Trypanosoma equiperdum (Inf. with) (Dourine),Asia,seasonal_persistence,4,8.75,0.8134880073638476
+Trypanosoma equiperdum (Inf. with) (Dourine),Europe,log_linear_trend,12,5.842166696727205,0.6944258234598663
+Trypanosoma equiperdum (Inf. with) (Dourine),Europe,seasonal_median_5y,12,7.166666666666667,0.7981247910617236
+Trypanosoma equiperdum (Inf. with) (Dourine),Europe,seasonal_persistence,12,8.333333333333334,0.8662628168431649
+Trypanosoma evansi (Inf. with) (Surra),Africa,log_linear_trend,6,17.535197715248433,1.3412940915025147
+Trypanosoma evansi (Inf. with) (Surra),Africa,seasonal_median_5y,6,10.083333333333334,1.0981316104768164
+Trypanosoma evansi (Inf. with) (Surra),Africa,seasonal_persistence,6,12.166666666666666,1.6113003669602715
+Trypanosoma evansi (Inf. with) (Surra),Asia,log_linear_trend,9,4.818050989248506,0.9535981177302447
+Trypanosoma evansi (Inf. with) (Surra),Asia,seasonal_median_5y,9,4.888888888888889,0.978219966877643
+Trypanosoma evansi (Inf. with) (Surra),Asia,seasonal_persistence,9,5.962962962962964,0.7319803381934515
+Trypanosoma evansi (Inf. with) (Surra),Middle East,log_linear_trend,12,20.147708581605674,0.7215201690990204
+Trypanosoma evansi (Inf. with) (Surra),Middle East,seasonal_median_5y,12,23.604166666666668,0.9924463437070365
+Trypanosoma evansi (Inf. with) (Surra),Middle East,seasonal_persistence,12,24.659722222222225,1.142870287883828
+Trypanosomosis (tsetse-transmitted) (-2021),Africa,log_linear_trend,6,5.903042212970992,0.41192792612971824
+Trypanosomosis (tsetse-transmitted) (-2021),Africa,seasonal_median_5y,6,5.719018250268249,0.40488772753978675
+Trypanosomosis (tsetse-transmitted) (-2021),Africa,seasonal_persistence,6,8.068823537573538,0.569406497474171
+Trypanosomosis (tsetse-transmitted) (-2021),Americas,log_linear_trend,6,19.417107695500135,0.8025263063441272
+Trypanosomosis (tsetse-transmitted) (-2021),Americas,seasonal_median_5y,6,19.763888888888886,0.7581944782670244
+Trypanosomosis (tsetse-transmitted) (-2021),Americas,seasonal_persistence,6,20.541666666666668,0.8568225409826783
+Trypanosomosis (tsetse-transmitted) (-2021),Asia,log_linear_trend,6,13.563833017074643,0.800598177293427
+Trypanosomosis (tsetse-transmitted) (-2021),Asia,seasonal_median_5y,6,15.916666666666666,0.9059128398901829
+Trypanosomosis (tsetse-transmitted) (-2021),Asia,seasonal_persistence,6,16.61111111111111,1.0143279325504129
+Trypanosomosis (tsetse-transmitted) (-2021),Middle East,log_linear_trend,6,17.696844430440525,1.5921758480739465
+Trypanosomosis (tsetse-transmitted) (-2021),Middle East,seasonal_median_5y,6,16.583333333333332,1.5117783880130276
+Trypanosomosis (tsetse-transmitted) (-2021),Middle East,seasonal_persistence,6,4.083333333333333,0.7623703129087955
+Tularemia,Europe,log_linear_trend,12,5.204680785783245,0.4176342062279746
+Tularemia,Europe,seasonal_median_5y,12,5.82222222222222,0.467923162711691
+Tularemia,Europe,seasonal_persistence,12,5.250132275132274,0.42253369405153657
+Turkey rhinotracheitis (2006-),Asia,log_linear_trend,12,2.9470248723837904,0.5764985780141902
+Turkey rhinotracheitis (2006-),Asia,seasonal_median_5y,12,2.75,0.5024292394469708
+Turkey rhinotracheitis (2006-),Asia,seasonal_persistence,12,3.4166666666666665,0.5283843475949098
+Varroa spp. (Inf. of honey bees with) (Varroosis),Africa,log_linear_trend,12,7.177039905355713,0.41964173179545916
+Varroa spp. (Inf. of honey bees with) (Varroosis),Africa,seasonal_median_5y,12,7.0694444444444455,0.43569377603054094
+Varroa spp. (Inf. of honey bees with) (Varroosis),Africa,seasonal_persistence,12,10.291666666666666,0.5205786253730201
+Varroa spp. (Inf. of honey bees with) (Varroosis),Americas,log_linear_trend,12,88.92580661634726,1.1381242315938984
+Varroa spp. (Inf. of honey bees with) (Varroosis),Americas,seasonal_median_5y,12,89.25885942760944,1.137624136347506
+Varroa spp. (Inf. of honey bees with) (Varroosis),Americas,seasonal_persistence,12,122.05860088985088,1.3387230634989857
+Varroa spp. (Inf. of honey bees with) (Varroosis),Asia,log_linear_trend,12,8.556862893249763,0.8832767040007978
+Varroa spp. (Inf. of honey bees with) (Varroosis),Asia,seasonal_median_5y,12,5.166666666666667,0.6744695005054689
+Varroa spp. (Inf. of honey bees with) (Varroosis),Asia,seasonal_persistence,12,6.041666666666667,0.5291538272051148
+Varroa spp. (Inf. of honey bees with) (Varroosis),Europe,log_linear_trend,12,187.83535544395548,0.9323344189853648
+Varroa spp. (Inf. of honey bees with) (Varroosis),Europe,seasonal_median_5y,12,88.22206034706032,0.7251109957643149
+Varroa spp. (Inf. of honey bees with) (Varroosis),Europe,seasonal_persistence,12,101.0343314093314,0.5379669498242181
+Varroa spp. (Inf. of honey bees with) (Varroosis),Middle East,log_linear_trend,8,1753.0140117020353,3.493500322726181
+Varroa spp. (Inf. of honey bees with) (Varroosis),Middle East,seasonal_median_5y,8,291.375,2.2741326877519175
+Varroa spp. (Inf. of honey bees with) (Varroosis),Middle East,seasonal_persistence,8,239.625,2.2577594424991605
+Venezuelan equine encephalomyelitis,Americas,log_linear_trend,7,2.010789194121803,0.62800839519476
+Venezuelan equine encephalomyelitis,Americas,seasonal_median_5y,7,0.8095238095238094,0.3491972028091809
+Venezuelan equine encephalomyelitis,Americas,seasonal_persistence,7,0.7857142857142857,0.3304551930354675
+Viral haemorrhagic septicaemia virus (Inf. with),Europe,log_linear_trend,12,0.9399902531394586,0.3049030709782213
+Viral haemorrhagic septicaemia virus (Inf. with),Europe,seasonal_median_5y,12,1.2825396825396824,0.39243554469234543
+Viral haemorrhagic septicaemia virus (Inf. with),Europe,seasonal_persistence,12,1.3111111111111111,0.41223801938326576
+Viral haemorrhagic septicaemia virus (Inf. with),Middle East,log_linear_trend,7,3.505667535296389,0.7011498334167223
+Viral haemorrhagic septicaemia virus (Inf. with),Middle East,seasonal_median_5y,7,2.857142857142857,0.6458554974965546
+Viral haemorrhagic septicaemia virus (Inf. with),Middle East,seasonal_persistence,7,3.4285714285714284,0.6746469575714211
+West Nile Fever,Americas,log_linear_trend,6,65.18694426889137,0.8127573299368644
+West Nile Fever,Americas,seasonal_median_5y,6,74.45833333333333,1.0995844294323052
+West Nile Fever,Americas,seasonal_persistence,6,90.79166666666667,1.0174491915787474
+West Nile Fever,Asia,log_linear_trend,2,1.5183492475889915,0.29223061261551064
+West Nile Fever,Asia,seasonal_median_5y,2,2.0,0.7768361992120931
+West Nile Fever,Asia,seasonal_persistence,2,2.5,0.4286027370245274
+West Nile Fever,Europe,log_linear_trend,12,9.213644834861157,0.7217982019910067
+West Nile Fever,Europe,seasonal_median_5y,12,8.978108465608466,0.7159251632888743
+West Nile Fever,Europe,seasonal_persistence,12,10.405555555555557,0.681755732577391
+White spot syndrome virus (Inf. with),Americas,log_linear_trend,12,7.644131830634971,0.8495810121733389
+White spot syndrome virus (Inf. with),Americas,seasonal_median_5y,12,6.469444444444445,0.7331971097006651
+White spot syndrome virus (Inf. with),Americas,seasonal_persistence,12,7.923611111111111,1.0242009512627543
+White spot syndrome virus (Inf. with),Asia,log_linear_trend,12,59.920802419446744,2.0878458570567133
+White spot syndrome virus (Inf. with),Asia,seasonal_median_5y,12,74.31150793650794,1.9440219527442397
+White spot syndrome virus (Inf. with),Asia,seasonal_persistence,12,5.306349206349206,0.8405760993025339

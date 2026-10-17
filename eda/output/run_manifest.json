@@ -1,0 +1,41 @@
+{
+  "python": "3.14.6",
+  "platform": "macOS-15.6-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "scipy": "1.18.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "inputs": {
+    "WAHIS_data.csv": "3e858a8672a079667fad6ffb6ca72136ef3e766dcc5b96d95c95253a6911b184",
+    "data/climate_country_month.csv": "26d787c7dab97b807180ddf6178d06c20e92ce32eeb6b46cf734d55d53787f21",
+    "data/wahis_country_iso3.csv": "e7ba2cb2c1f7c44b5e9eb15e1d6065c9a85d4c3e39b9a11641138a2d69465dda"
+  },
+  "sources": {
+    "run_pipeline.py": "fc90e8d8d427d8be6829d5c9f2cc776c77b4150076d709aa56924aa2619ed793",
+    "eda/analysis.py": "441871aeaa6d1c100b99a431be3bfe912656f6a6d445fdc464ef49600f67c740",
+    "eda/modelling.py": "31198341fc7432b557848cb3287959f4635e01272c282ee8baa7b54d6ea794c0",
+    "eda/test_analysis.py": "d47eb87db685324b577576c42fe1fd70440591822c0ef288a156734bca54e7ea",
+    "eda/test_modelling.py": "46f8187f9b6514fb2c498a5fbeb67412e8ca4d825d2dc5b63ac54fd8a980952e"
+  },
+  "summary_policy": "prefer-both",
+  "tests_passed": 16,
+  "aggregate_grains_reconciled": 8,
+  "modelling": {
+    "test_start": 2019,
+    "test_end": 2024,
+    "minimum_training_semesters": 20,
+    "available_complete_test_targets": 3563,
+    "scored_common_targets": 2384,
+    "scored_series": 253,
+    "protocol": "Expanding window; one semester ahead; same eligible targets for all models.",
+    "outcome": "Known reported new outbreaks / countries with numeric disease summaries.",
+    "limitations": "Reporting-period availability is assumed; publication timestamps and stable surveillance denominators are unavailable. Performance is conditional on observed records, not operational early-warning validity."
+  },
+  "command": "python run_pipeline.py --input WAHIS_data.csv --summary-policy prefer-both"
+}

@@ -24,7 +24,7 @@ Prefer **Both animal categories** summaries by subtype, with existing Domestic/W
 .venv-eda/bin/python eda/analysis.py --summary-policy both-only --output /tmp/wahis-both-only
 ```
 
-The report is regenerated at `eda/report.md` by each CLI run, including alternative policies; the report lists its active policy. Rerun the default command to restore the main report. Open the notebook in Jupyter and select this environment's Python kernel. The notebook discovers the project root from either the repository or `eda` directory; set `INPUT` and `POLICY` in its configuration cell for a different export. `execute_notebook.py` executes with the invoking interpreter and writes outputs into the existing notebook.
+The default output regenerates `eda/report.md`. A custom `--output` directory receives its own `report.md` with links to its own charts, leaving the default report unchanged. Each report lists its active policy. Open the notebook in Jupyter and select this environment's Python kernel. The notebook discovers the project root from either the repository or `eda` directory; set `INPUT` and `POLICY` in its configuration cell for a different export. `execute_notebook.py` executes with the invoking interpreter and writes outputs into the existing notebook.
 
 ```sh
 .venv-eda/bin/python eda/execute_notebook.py
@@ -38,3 +38,7 @@ Use the original CSV column names: Year, Semester, World region, Country, Admini
 A row is a summary count, not one outbreak. Sum **New outbreaks**, never species rows or animal counts. Verified regional copies are removed; inconsistent summary-key counts are quarantined. Unknown groups, missing periods and missing disease–region combinations are not filled with zero. Distinct subtype summary rows are retained, pending dictionary confirmation of additivity. Original disease labels remain separate rather than assuming historical taxonomic equivalence.
 
 Coverage means countries with numeric selected summaries, not proven complete reporting. Tables include unknown-group counts. Six-month periods are the finest disease time unit in this source: monthly plots, occurrence-date analyses, maps without trustworthy boundaries/coordinates, and validated operational early warnings are skipped. The baseline is a trailing five-year same-half log-MAD screen with a descriptive cutoff, not a significance test. Climate is audited for complete six-month joins; no association is inferred from a successful join.
+
+## Full submission workflow
+
+The root [README](../README.md) documents `python run_pipeline.py`, which runs tests, processing/EDA, three baseline models, expanding-window temporal validation and the consolidated [technical report](../TECHNICAL_REPORT.md). `modelling.py` owns the models; `test_modelling.py` checks leakage and evaluation eligibility. The EDA notebook is refreshed separately and deliberately makes no model-performance claims.

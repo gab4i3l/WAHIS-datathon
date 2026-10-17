@@ -22,7 +22,7 @@
     "02_semester_trend": [
       "When do six-month reported counts peak?",
       "Sum by explicit reporting semester; add a trailing mean of four observed semesters.",
-      "2024 contains 2 semester labels; country coverage is half 1: 129, half 2: 126.",
+      "2024 contains 2 semesters with eligible known counts; country coverage is half 1: 129, half 2: 126.",
       "Half-year variation can guide finer data requests.",
       "These are reporting-period counts; precise onset/report dates and monthly seasonality are unavailable. A trailing mean is descriptive."
     ],
